@@ -1,0 +1,5 @@
+D:\Git\WebStore\WebStore.Logger\bin\Debug\netcoreapp2.1\WebStore.Logger.deps.json
+D:\Git\WebStore\WebStore.Logger\bin\Debug\netcoreapp2.1\WebStore.Logger.dll
+D:\Git\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.1\WebStore.Logger.csproj.CoreCompileInputs.cache
+D:\Git\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.1\WebStore.Logger.AssemblyInfoInputs.cache
+D:\Git\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.1\WebStore.Logger.AssemblyInfo.cs

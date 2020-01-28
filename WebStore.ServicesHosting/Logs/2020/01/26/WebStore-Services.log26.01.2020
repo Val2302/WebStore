@@ -1,0 +1,1507 @@
+INFO  12 2020-01-26 14:06:43,118 [12] ?     - Request starting HTTP/1.1 DEBUG http://localhost:18992/  0
+
+INFO  9 2020-01-26 14:06:43,118 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+WARN  9 2020-01-26 14:06:43,274 [9] ?     - Failed to determine the https port for redirect.
+
+INFO  12 2020-01-26 14:06:43,362 [12] ?     - Request finished in 226.3744ms 200 
+
+INFO  9 2020-01-26 14:06:43,849 [9] ?     - Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebStore.ServicesHosting.Controllers.ValuesController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:06:43,869 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:06:43,874 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.6953ms.
+
+INFO  9 2020-01-26 14:06:43,893 [9] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  9 2020-01-26 14:06:44,293 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 422.0659ms
+
+INFO  9 2020-01-26 14:06:44,305 [9] ?     - Request finished in 1194.5851ms 200 application/json; charset=utf-8
+
+INFO  8 2020-01-26 14:06:59,621 [8] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  8 2020-01-26 14:06:59,629 [8] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebStore.Domain.Dto.Product.SectionDto] GetSections() on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  8 2020-01-26 14:06:59,638 [8] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  8 2020-01-26 14:06:59,658 [8] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  8 2020-01-26 14:06:59,810 [8] ?     - Executed DbCommand (124ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  8 2020-01-26 14:06:59,901 [8] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 259.7049ms.
+
+INFO  8 2020-01-26 14:06:59,903 [8] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  8 2020-01-26 14:06:59,995 [8] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 364.1142ms
+
+INFO  8 2020-01-26 14:06:59,997 [8] ?     - Request finished in 380.7415ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:07:01,029 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  9 2020-01-26 14:07:01,033 [9] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebStore.Domain.Dto.Product.BrandDto] GetBrands() on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:07:01,035 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:07:01,038 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:07:01,059 [9] ?     - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  9 2020-01-26 14:07:01,099 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 39.5742ms.
+
+INFO  9 2020-01-26 14:07:01,101 [9] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  9 2020-01-26 14:07:01,106 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 70.6604ms
+
+INFO  9 2020-01-26 14:07:01,108 [9] ?     - Request finished in 78.3424ms 200 application/json; charset=utf-8
+
+INFO  8 2020-01-26 14:07:01,150 [8] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  8 2020-01-26 14:07:01,242 [8] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  8 2020-01-26 14:07:01,365 [8] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  8 2020-01-26 14:07:01,371 [8] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  8 2020-01-26 14:07:01,612 [8] ?     - Executed DbCommand (167ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  8 2020-01-26 14:07:01,620 [8] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 250.0011ms.
+
+INFO  8 2020-01-26 14:07:01,624 [8] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  8 2020-01-26 14:07:01,629 [8] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 382.3381ms
+
+INFO  8 2020-01-26 14:07:01,638 [8] ?     - Request finished in 480.2988ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:07:01,646 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  12 2020-01-26 14:07:01,650 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:07:01,654 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:07:01,657 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:07:01,662 [12] ?     - Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:07:01,664 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.6271ms.
+
+INFO  12 2020-01-26 14:07:01,666 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:07:01,670 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 16.4442ms
+
+INFO  12 2020-01-26 14:07:01,675 [12] ?     - Request finished in 27.504ms 200 application/json; charset=utf-8
+
+INFO  15 2020-01-26 14:07:01,681 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  15 2020-01-26 14:07:01,684 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  15 2020-01-26 14:07:01,687 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  15 2020-01-26 14:07:01,690 [15] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2020-01-26 14:07:01,695 [15] ?     - Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2020-01-26 14:07:01,697 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.2257ms.
+
+INFO  15 2020-01-26 14:07:01,699 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2020-01-26 14:07:01,702 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 15.4455ms
+
+INFO  15 2020-01-26 14:07:01,705 [15] ?     - Request finished in 23.2501ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:07:01,721 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  12 2020-01-26 14:07:01,735 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:07:01,737 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:07:01,739 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:07:01,742 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:07:01,743 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.9159ms.
+
+INFO  12 2020-01-26 14:07:01,745 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:07:01,748 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 10.5568ms
+
+INFO  12 2020-01-26 14:07:01,751 [12] ?     - Request finished in 27.7434ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:07:01,757 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  12 2020-01-26 14:07:01,759 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:07:01,761 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:07:01,763 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:07:01,766 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:07:01,769 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.5374ms.
+
+INFO  12 2020-01-26 14:07:01,772 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:07:01,774 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 12.6283ms
+
+INFO  12 2020-01-26 14:07:01,777 [12] ?     - Request finished in 19.1268ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:07:01,781 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  9 2020-01-26 14:07:01,785 [9] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:07:01,788 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:07:01,791 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:07:01,797 [9] ?     - Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  9 2020-01-26 14:07:01,800 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.9986ms.
+
+INFO  9 2020-01-26 14:07:01,802 [9] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  9 2020-01-26 14:07:01,805 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 17.7444ms
+
+INFO  9 2020-01-26 14:07:01,809 [9] ?     - Request finished in 26.3276ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:07:01,814 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  12 2020-01-26 14:07:01,817 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:07:01,821 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:07:01,825 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:07:01,830 [12] ?     - Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:07:01,834 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.1243ms.
+
+INFO  12 2020-01-26 14:07:01,837 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:07:01,839 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 19.1667ms
+
+INFO  12 2020-01-26 14:07:01,844 [12] ?     - Request finished in 28.1793ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:07:04,156 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:07:04,162 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:07:04,324 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:07:04,332 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+WARN  9 2020-01-26 14:07:04,353 [9] ?     - The Include operation for navigation '[p].Brand' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+WARN  9 2020-01-26 14:07:04,356 [9] ?     - The Include operation for navigation '[p].Section' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+INFO  9 2020-01-26 14:07:04,719 [9] ?     - Executed DbCommand (357ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDelete] = 0
+
+INFO  9 2020-01-26 14:07:05,136 [9] ?     - Executed DbCommand (176ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE [p].[IsDelete] = 0
+ORDER BY [p].[Order]
+
+INFO  9 2020-01-26 14:07:05,288 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 961.9515ms.
+
+INFO  9 2020-01-26 14:07:05,290 [9] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  9 2020-01-26 14:07:05,311 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 1146.4545ms
+
+INFO  9 2020-01-26 14:07:05,313 [9] ?     - Request finished in 1156.7277ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:06,238 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:10:06,242 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:06,246 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:06,252 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:10:06,258 [9] ?     - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDelete] = 0
+
+INFO  9 2020-01-26 14:10:06,265 [9] ?     - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE [p].[IsDelete] = 0
+ORDER BY [p].[Order]
+
+INFO  9 2020-01-26 14:10:06,268 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20.6537ms.
+
+INFO  9 2020-01-26 14:10:06,270 [9] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  9 2020-01-26 14:10:06,274 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 28.2778ms
+
+INFO  9 2020-01-26 14:10:06,278 [9] ?     - Request finished in 38.2895ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:07,475 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:10:07,477 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:07,479 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:07,488 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:07,492 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDelete] = 0
+
+INFO  12 2020-01-26 14:10:07,508 [12] ?     - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE [p].[IsDelete] = 0
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:10:07,511 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 29.6082ms.
+
+INFO  12 2020-01-26 14:10:07,513 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:10:07,515 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 35.9318ms
+
+INFO  12 2020-01-26 14:10:07,518 [12] ?     - Request finished in 42.3411ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:21,858 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:10:21,861 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:21,863 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:21,865 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:21,868 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDelete] = 0
+
+INFO  12 2020-01-26 14:10:21,874 [12] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE [p].[IsDelete] = 0
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:10:21,878 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.4383ms.
+
+INFO  12 2020-01-26 14:10:21,881 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:10:21,884 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 20.5256ms
+
+INFO  12 2020-01-26 14:10:21,887 [12] ?     - Request finished in 28.5293ms 200 application/json; charset=utf-8
+
+INFO  24 2020-01-26 14:10:24,727 [24] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/users/user/normal/USER123  
+
+INFO  24 2020-01-26 14:10:24,746 [24] ?     - Route matched with {action = "FindByNameAsync", controller = "UserStoreApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[WebStore.Domain.Entities.User] FindByNameAsync(System.String) on controller WebStore.ServicesHosting.Controllers.Users.UserStoreApiController (WebStore.ServicesHosting).
+
+INFO  24 2020-01-26 14:10:24,766 [24] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByNameAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  24 2020-01-26 14:10:24,770 [24] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  24 2020-01-26 14:10:25,138 [24] ?     - Executed DbCommand (359ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+
+INFO  24 2020-01-26 14:10:25,144 [24] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByNameAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 375.1175ms.
+
+INFO  24 2020-01-26 14:10:25,151 [24] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Entities.User'.
+
+INFO  24 2020-01-26 14:10:25,163 [24] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByNameAsync (WebStore.ServicesHosting) in 414.5993ms
+
+INFO  24 2020-01-26 14:10:25,168 [24] ?     - Request finished in 441.4688ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:25,395 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/users/lockout/GetLockoutEnabled application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:10:25,633 [9] ?     - Route matched with {action = "GetLockoutEnabledAsync", controller = "UserLockoutApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] GetLockoutEnabledAsync(WebStore.Domain.Entities.User) on controller WebStore.ServicesHosting.Controllers.Users.UserLockoutApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:25,680 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserLockoutApiController.GetLockoutEnabledAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:25,749 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserLockoutApiController.GetLockoutEnabledAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 66.9161ms.
+
+INFO  9 2020-01-26 14:10:25,751 [9] ?     - Executing ObjectResult, writing value of type 'System.Boolean'.
+
+INFO  9 2020-01-26 14:10:25,753 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserLockoutApiController.GetLockoutEnabledAsync (WebStore.ServicesHosting) in 118.761ms
+
+INFO  9 2020-01-26 14:10:25,758 [9] ?     - Request finished in 364.5601ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:25,772 [9] ?     - Connection id "0HLT29V9L2VIJ", Request id "0HLT29V9L2VIJ:00000005": the application completed without reading the entire request body.
+
+INFO  9 2020-01-26 14:10:25,837 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/users/password/getPasswordHash application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:10:25,844 [9] ?     - Route matched with {action = "GetPasswordHashAsync", controller = "UserPasswordApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetPasswordHashAsync(WebStore.Domain.Entities.User) on controller WebStore.ServicesHosting.Controllers.Users.UserPasswordApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:25,850 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserPasswordApiController.GetPasswordHashAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:25,853 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserPasswordApiController.GetPasswordHashAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.5704ms.
+
+INFO  9 2020-01-26 14:10:25,856 [9] ?     - Executing ObjectResult, writing value of type 'System.String'.
+
+INFO  9 2020-01-26 14:10:25,859 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserPasswordApiController.GetPasswordHashAsync (WebStore.ServicesHosting) in 12.0029ms
+
+INFO  9 2020-01-26 14:10:25,861 [9] ?     - Request finished in 23.7555ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:26,252 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/users/lockout/GetAccessFailedCount application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:10:26,259 [12] ?     - Route matched with {action = "GetAccessFailedCountAsync", controller = "UserLockoutApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] GetAccessFailedCountAsync(WebStore.Domain.Entities.User) on controller WebStore.ServicesHosting.Controllers.Users.UserLockoutApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:26,265 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserLockoutApiController.GetAccessFailedCountAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:26,268 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserLockoutApiController.GetAccessFailedCountAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4234ms.
+
+INFO  12 2020-01-26 14:10:26,270 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:10:26,274 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserLockoutApiController.GetAccessFailedCountAsync (WebStore.ServicesHosting) in 10.7386ms
+
+INFO  12 2020-01-26 14:10:26,278 [12] ?     - Request finished in 24.0836ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:26,280 [12] ?     - Connection id "0HLT29V9L2VIJ", Request id "0HLT29V9L2VIJ:00000007": the application completed without reading the entire request body.
+
+INFO  9 2020-01-26 14:10:26,287 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/users/twofactor/getTwoFactorEnabled application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:10:26,296 [9] ?     - Route matched with {action = "GetTwoFactorEnabledAsync", controller = "UserTwoFactorApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] GetTwoFactorEnabledAsync(WebStore.Domain.Entities.User) on controller WebStore.ServicesHosting.Controllers.Users.UserTwoFactorApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:26,299 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserTwoFactorApiController.GetTwoFactorEnabledAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:26,314 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserTwoFactorApiController.GetTwoFactorEnabledAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1545ms.
+
+INFO  9 2020-01-26 14:10:26,316 [9] ?     - Executing ObjectResult, writing value of type 'System.Boolean'.
+
+INFO  9 2020-01-26 14:10:26,318 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserTwoFactorApiController.GetTwoFactorEnabledAsync (WebStore.ServicesHosting) in 19.4412ms
+
+INFO  9 2020-01-26 14:10:26,321 [9] ?     - Request finished in 32.6045ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:26,333 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/users/user/userId application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:10:26,346 [12] ?     - Route matched with {action = "GetUserIdAsync", controller = "UserStoreApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetUserIdAsync(WebStore.Domain.Entities.User) on controller WebStore.ServicesHosting.Controllers.Users.UserStoreApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:26,348 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.GetUserIdAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:26,351 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.GetUserIdAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4557ms.
+
+INFO  12 2020-01-26 14:10:26,353 [12] ?     - Executing ObjectResult, writing value of type 'System.String'.
+
+INFO  12 2020-01-26 14:10:26,356 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.GetUserIdAsync (WebStore.ServicesHosting) in 8.0718ms
+
+INFO  12 2020-01-26 14:10:26,360 [12] ?     - Request finished in 25.1233ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:10:26,366 [19] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/users/user/userName application/json; charset=utf-8 
+
+INFO  19 2020-01-26 14:10:26,373 [19] ?     - Route matched with {action = "GetUserNameAsync", controller = "UserStoreApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetUserNameAsync(WebStore.Domain.Entities.User) on controller WebStore.ServicesHosting.Controllers.Users.UserStoreApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:10:26,377 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.GetUserNameAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:10:26,380 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.GetUserNameAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3762ms.
+
+INFO  19 2020-01-26 14:10:26,381 [19] ?     - Executing ObjectResult, writing value of type 'System.String'.
+
+INFO  19 2020-01-26 14:10:26,383 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.GetUserNameAsync (WebStore.ServicesHosting) in 6.2952ms
+
+INFO  19 2020-01-26 14:10:26,385 [19] ?     - Request finished in 18.741ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:26,614 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/users/claim/getClaims application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:10:26,624 [9] ?     - Route matched with {action = "GetClaimsAsync", controller = "UserClaimApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[System.Security.Claims.Claim]] GetClaimsAsync(WebStore.Domain.Entities.User) on controller WebStore.ServicesHosting.Controllers.Users.UserClaimApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:26,626 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserClaimApiController.GetClaimsAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:26,721 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:10:26,895 [19] ?     - Executed DbCommand (38ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+
+INFO  19 2020-01-26 14:10:26,903 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserClaimApiController.GetClaimsAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 274.761ms.
+
+INFO  19 2020-01-26 14:10:26,905 [19] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.Security.Claims.Claim, System.Security.Claims, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]'.
+
+INFO  19 2020-01-26 14:10:26,910 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserClaimApiController.GetClaimsAsync (WebStore.ServicesHosting) in 283.6898ms
+
+INFO  19 2020-01-26 14:10:26,912 [19] ?     - Request finished in 297.9856ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:26,921 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/users/role/roles application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:10:26,929 [9] ?     - Route matched with {action = "GetRolesAsync", controller = "UserRoleApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[System.String]] GetRolesAsync(WebStore.Domain.Entities.User) on controller WebStore.ServicesHosting.Controllers.Users.UserRoleApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:26,932 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserRoleApiController.GetRolesAsync (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:26,943 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:27,894 [12] ?     - Executed DbCommand (370ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+
+INFO  12 2020-01-26 14:10:27,898 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserRoleApiController.GetRolesAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 964.4409ms.
+
+INFO  12 2020-01-26 14:10:27,900 [12] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+INFO  12 2020-01-26 14:10:27,904 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserRoleApiController.GetRolesAsync (WebStore.ServicesHosting) in 972.9375ms
+
+INFO  12 2020-01-26 14:10:27,908 [12] ?     - Request finished in 984.4252ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:28,080 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+INFO  9 2020-01-26 14:10:28,082 [9] ?     - Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebStore.ServicesHosting.Controllers.ValuesController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:28,084 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:28,086 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.073ms.
+
+INFO  9 2020-01-26 14:10:28,088 [9] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  9 2020-01-26 14:10:28,105 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 6.1594ms
+
+INFO  9 2020-01-26 14:10:28,109 [9] ?     - Request finished in 26.805ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:10:28,137 [19] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  19 2020-01-26 14:10:28,140 [19] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebStore.Domain.Dto.Product.SectionDto] GetSections() on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:10:28,143 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:10:28,146 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:10:28,149 [19] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  19 2020-01-26 14:10:28,152 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.4561ms.
+
+INFO  19 2020-01-26 14:10:28,154 [19] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  19 2020-01-26 14:10:28,158 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 13.9426ms
+
+INFO  19 2020-01-26 14:10:28,160 [19] ?     - Request finished in 22.2065ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:28,168 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  12 2020-01-26 14:10:28,170 [12] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebStore.Domain.Dto.Product.BrandDto] GetBrands() on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:28,174 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:28,176 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:28,179 [12] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  12 2020-01-26 14:10:28,181 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.9636ms.
+
+INFO  12 2020-01-26 14:10:28,183 [12] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  12 2020-01-26 14:10:28,186 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 13.2929ms
+
+INFO  12 2020-01-26 14:10:28,189 [12] ?     - Request finished in 20.1828ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:10:28,194 [19] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  19 2020-01-26 14:10:28,196 [19] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:10:28,198 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:10:28,201 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:10:28,205 [19] ?     - Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  19 2020-01-26 14:10:28,211 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.785ms.
+
+INFO  19 2020-01-26 14:10:28,213 [19] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  19 2020-01-26 14:10:28,215 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 16.6577ms
+
+INFO  19 2020-01-26 14:10:28,217 [19] ?     - Request finished in 24.7128ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:28,221 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  9 2020-01-26 14:10:28,224 [9] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:28,227 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:28,229 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:10:28,231 [9] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  9 2020-01-26 14:10:28,233 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.8419ms.
+
+INFO  9 2020-01-26 14:10:28,236 [9] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  9 2020-01-26 14:10:28,238 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 11.2926ms
+
+INFO  9 2020-01-26 14:10:28,242 [9] ?     - Request finished in 18.6693ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:28,246 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  12 2020-01-26 14:10:28,248 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:28,251 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:28,253 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:28,255 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:10:28,259 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.6332ms.
+
+INFO  12 2020-01-26 14:10:28,261 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:10:28,264 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 13.1682ms
+
+INFO  12 2020-01-26 14:10:28,266 [12] ?     - Request finished in 19.5221ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:28,270 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  12 2020-01-26 14:10:28,272 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:28,275 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:28,277 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:28,279 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:10:28,280 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.3772ms.
+
+INFO  12 2020-01-26 14:10:28,282 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:10:28,284 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 10.2322ms
+
+INFO  12 2020-01-26 14:10:28,287 [12] ?     - Request finished in 15.8911ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:28,291 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  9 2020-01-26 14:10:28,295 [9] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:28,297 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:28,300 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:10:28,302 [9] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  9 2020-01-26 14:10:28,304 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.2573ms.
+
+INFO  9 2020-01-26 14:10:28,307 [9] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  9 2020-01-26 14:10:28,310 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 12.9911ms
+
+INFO  9 2020-01-26 14:10:28,312 [9] ?     - Request finished in 21.8375ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:28,316 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  12 2020-01-26 14:10:28,318 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:28,320 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:28,324 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:28,328 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:10:28,331 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.4722ms.
+
+INFO  12 2020-01-26 14:10:28,334 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:10:28,337 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 15.6349ms
+
+INFO  12 2020-01-26 14:10:28,342 [12] ?     - Request finished in 22.8549ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:28,344 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  12 2020-01-26 14:10:28,347 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:28,349 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:28,351 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:28,354 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:10:28,358 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.3075ms.
+
+INFO  12 2020-01-26 14:10:28,360 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:10:28,362 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 13.026ms
+
+INFO  12 2020-01-26 14:10:28,365 [12] ?     - Request finished in 19.9287ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:28,372 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:10:28,376 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:28,378 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:28,382 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:10:28,385 [9] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDelete] = 0
+
+INFO  9 2020-01-26 14:10:28,389 [9] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE [p].[IsDelete] = 0
+ORDER BY [p].[Order]
+
+INFO  9 2020-01-26 14:10:28,393 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.4082ms.
+
+INFO  9 2020-01-26 14:10:28,396 [9] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  9 2020-01-26 14:10:28,398 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 20.433ms
+
+INFO  9 2020-01-26 14:10:28,401 [9] ?     - Request finished in 28.5744ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:45,178 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:10:45,180 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:45,183 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:45,185 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:45,188 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDelete] = 0
+
+INFO  12 2020-01-26 14:10:45,193 [12] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE [p].[IsDelete] = 0
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:10:45,197 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11.975ms.
+
+INFO  12 2020-01-26 14:10:45,199 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:10:45,201 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 18.8957ms
+
+INFO  12 2020-01-26 14:10:45,204 [12] ?     - Request finished in 25.5014ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:45,231 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:10:45,233 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:45,235 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:45,237 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:45,241 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDelete] = 0
+
+INFO  12 2020-01-26 14:10:45,247 [12] ?     - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE [p].[IsDelete] = 0
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:10:45,250 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.1507ms.
+
+INFO  12 2020-01-26 14:10:45,252 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:10:45,254 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 19.1487ms
+
+INFO  12 2020-01-26 14:10:45,260 [12] ?     - Request finished in 24.2715ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:59,264 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:10:59,266 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:59,278 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:59,280 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+WARN  12 2020-01-26 14:10:59,284 [12] ?     - The Include operation for navigation '[p].Brand' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+WARN  12 2020-01-26 14:10:59,285 [12] ?     - The Include operation for navigation '[p].Section' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+INFO  12 2020-01-26 14:10:59,310 [12] ?     - Executed DbCommand (19ms) [Parameters=[@__filter_SectionId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND ([p].[SectionId] = @__filter_SectionId_0)
+
+INFO  12 2020-01-26 14:10:59,372 [12] ?     - Executed DbCommand (43ms) [Parameters=[@__filter_SectionId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND ([p].[SectionId] = @__filter_SectionId_0)
+ORDER BY [p].[Order]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+
+INFO  12 2020-01-26 14:10:59,377 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 97.1189ms.
+
+INFO  12 2020-01-26 14:10:59,379 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:10:59,382 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 113.2161ms
+
+INFO  12 2020-01-26 14:10:59,385 [12] ?     - Request finished in 121.1431ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:59,592 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  9 2020-01-26 14:10:59,594 [9] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebStore.Domain.Dto.Product.SectionDto] GetSections() on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:59,598 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:59,600 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:10:59,604 [9] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  9 2020-01-26 14:10:59,606 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.7573ms.
+
+INFO  9 2020-01-26 14:10:59,611 [9] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  9 2020-01-26 14:10:59,614 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 16.7855ms
+
+INFO  9 2020-01-26 14:10:59,617 [9] ?     - Request finished in 26.2262ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:59,627 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  12 2020-01-26 14:10:59,630 [12] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebStore.Domain.Dto.Product.BrandDto] GetBrands() on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:59,632 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:59,635 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:59,638 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  12 2020-01-26 14:10:59,640 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.1917ms.
+
+INFO  12 2020-01-26 14:10:59,645 [12] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  12 2020-01-26 14:10:59,648 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 15.7362ms
+
+INFO  12 2020-01-26 14:10:59,652 [12] ?     - Request finished in 24.9248ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:10:59,655 [19] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  19 2020-01-26 14:10:59,660 [19] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:10:59,662 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:10:59,665 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:10:59,668 [19] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  19 2020-01-26 14:10:59,671 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.8992ms.
+
+INFO  19 2020-01-26 14:10:59,673 [19] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  19 2020-01-26 14:10:59,677 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 13.487ms
+
+INFO  19 2020-01-26 14:10:59,680 [19] ?     - Request finished in 24.4108ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:59,684 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  9 2020-01-26 14:10:59,687 [9] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:59,689 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:59,694 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:10:59,697 [9] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  9 2020-01-26 14:10:59,699 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.7592ms.
+
+INFO  9 2020-01-26 14:10:59,702 [9] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  9 2020-01-26 14:10:59,704 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 15.3582ms
+
+INFO  9 2020-01-26 14:10:59,710 [9] ?     - Request finished in 22.9488ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:10:59,713 [19] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  19 2020-01-26 14:10:59,716 [19] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:10:59,718 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:10:59,721 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:10:59,724 [19] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  19 2020-01-26 14:10:59,726 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.215ms.
+
+INFO  19 2020-01-26 14:10:59,729 [19] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  19 2020-01-26 14:10:59,732 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 12.8883ms
+
+INFO  19 2020-01-26 14:10:59,735 [19] ?     - Request finished in 21.2813ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:59,739 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  12 2020-01-26 14:10:59,744 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:59,747 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:59,750 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:59,752 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:10:59,754 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.4385ms.
+
+INFO  12 2020-01-26 14:10:59,756 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:10:59,760 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 12.2823ms
+
+INFO  12 2020-01-26 14:10:59,763 [12] ?     - Request finished in 22.6398ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:59,766 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  9 2020-01-26 14:10:59,768 [9] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:59,770 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:59,772 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:10:59,776 [9] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  9 2020-01-26 14:10:59,778 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.6399ms.
+
+INFO  9 2020-01-26 14:10:59,780 [9] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  9 2020-01-26 14:10:59,783 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 12.2528ms
+
+INFO  9 2020-01-26 14:10:59,786 [9] ?     - Request finished in 18.1694ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:10:59,788 [12] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  12 2020-01-26 14:10:59,791 [12] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:10:59,795 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:10:59,797 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:10:59,799 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  12 2020-01-26 14:10:59,802 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.7635ms.
+
+INFO  12 2020-01-26 14:10:59,804 [12] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  12 2020-01-26 14:10:59,806 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 12.9887ms
+
+INFO  12 2020-01-26 14:10:59,811 [12] ?     - Request finished in 19.5333ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:10:59,813 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  9 2020-01-26 14:10:59,815 [9] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature Int32 GetBrandProductCount(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:10:59,817 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:10:59,819 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:10:59,821 [9] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  9 2020-01-26 14:10:59,822 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.3158ms.
+
+INFO  9 2020-01-26 14:10:59,824 [9] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  9 2020-01-26 14:10:59,827 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 9.0726ms
+
+INFO  9 2020-01-26 14:10:59,830 [9] ?     - Request finished in 15.8411ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:11:00,310 [19] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections/2  
+
+INFO  19 2020-01-26 14:11:00,314 [19] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.SectionDto GetSectionById(Int32) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:11:00,318 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSectionById (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:11:00,334 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:11:00,345 [19] ?     - Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+WHERE [s].[Id] = @__id_0
+
+INFO  19 2020-01-26 14:11:00,353 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSectionById (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 32.5662ms.
+
+INFO  19 2020-01-26 14:11:00,355 [19] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.SectionDto'.
+
+INFO  19 2020-01-26 14:11:00,360 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSectionById (WebStore.ServicesHosting) in 41.1549ms
+
+INFO  19 2020-01-26 14:11:00,363 [19] ?     - Request finished in 53.2586ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:11:00,571 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:11:00,574 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:11:00,577 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:11:00,579 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:11:00,582 [9] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[IsDelete] = 0
+
+INFO  9 2020-01-26 14:11:00,585 [9] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE [p].[IsDelete] = 0
+ORDER BY [p].[Order]
+
+INFO  9 2020-01-26 14:11:00,588 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.4986ms.
+
+INFO  9 2020-01-26 14:11:00,590 [9] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  9 2020-01-26 14:11:00,594 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 16.166ms
+
+INFO  9 2020-01-26 14:11:00,597 [9] ?     - Request finished in 25.4447ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:11:03,094 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:11:03,096 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:11:03,106 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:11:03,110 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+WARN  9 2020-01-26 14:11:03,118 [9] ?     - The Include operation for navigation '[p].Brand' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+WARN  9 2020-01-26 14:11:03,120 [9] ?     - The Include operation for navigation '[p].Section' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+INFO  9 2020-01-26 14:11:03,144 [9] ?     - Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  9 2020-01-26 14:11:03,162 [9] ?     - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  9 2020-01-26 14:11:03,166 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 58.0634ms.
+
+INFO  9 2020-01-26 14:11:03,167 [9] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  9 2020-01-26 14:11:03,170 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 71.3549ms
+
+INFO  9 2020-01-26 14:11:03,172 [9] ?     - Request finished in 80.6564ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:11:04,876 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:11:04,879 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:11:04,882 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:11:04,893 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:11:04,896 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  12 2020-01-26 14:11:04,900 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:11:04,902 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.6943ms.
+
+INFO  12 2020-01-26 14:11:04,904 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:11:04,907 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 25.6961ms
+
+INFO  12 2020-01-26 14:11:04,910 [12] ?     - Request finished in 34.5582ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:11:08,019 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:11:08,021 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:11:08,024 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:11:08,027 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:11:08,032 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  12 2020-01-26 14:11:08,035 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:11:08,038 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.3529ms.
+
+INFO  12 2020-01-26 14:11:08,040 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:11:08,044 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 18.9439ms
+
+INFO  12 2020-01-26 14:11:08,048 [12] ?     - Request finished in 27.2194ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:11:08,068 [19] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  19 2020-01-26 14:11:08,071 [19] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:11:08,074 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:11:08,078 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:11:08,081 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  19 2020-01-26 14:11:08,085 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  19 2020-01-26 14:11:08,087 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.037ms.
+
+INFO  19 2020-01-26 14:11:08,089 [19] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  19 2020-01-26 14:11:08,093 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 18.5848ms
+
+INFO  19 2020-01-26 14:11:08,097 [19] ?     - Request finished in 27.0478ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:11:12,165 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:11:12,168 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:11:12,171 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:11:12,173 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:11:12,177 [9] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  9 2020-01-26 14:11:12,181 [9] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  9 2020-01-26 14:11:12,184 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11.0268ms.
+
+INFO  9 2020-01-26 14:11:12,186 [9] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  9 2020-01-26 14:11:12,189 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 18.795ms
+
+INFO  9 2020-01-26 14:11:12,195 [9] ?     - Request finished in 27.6009ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:11:12,893 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:11:12,896 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:11:12,898 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:11:12,900 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:11:12,903 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  12 2020-01-26 14:11:12,906 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:11:12,909 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.743ms.
+
+INFO  12 2020-01-26 14:11:12,911 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:11:12,913 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 15.3848ms
+
+INFO  12 2020-01-26 14:11:12,916 [12] ?     - Request finished in 24.2272ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:11:17,326 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:11:17,329 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:11:17,332 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:11:17,334 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:11:17,338 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  12 2020-01-26 14:11:17,341 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:11:17,344 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.7011ms.
+
+INFO  12 2020-01-26 14:11:17,347 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:11:17,350 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 18.0074ms
+
+INFO  12 2020-01-26 14:11:17,353 [12] ?     - Request finished in 27.1055ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:11:29,572 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:11:29,596 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:11:29,601 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:11:29,603 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:11:29,606 [12] ?     - Executed DbCommand (0ms) [Parameters=[@__filter_SectionId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND ([p].[SectionId] = @__filter_SectionId_0)
+
+INFO  12 2020-01-26 14:11:29,610 [12] ?     - Executed DbCommand (1ms) [Parameters=[@__filter_SectionId_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND ([p].[SectionId] = @__filter_SectionId_0)
+ORDER BY [p].[Order]
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+
+INFO  12 2020-01-26 14:11:29,613 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.5873ms.
+
+INFO  12 2020-01-26 14:11:29,615 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:11:29,618 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 18.8404ms
+
+INFO  12 2020-01-26 14:11:29,621 [12] ?     - Request finished in 48.9868ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:11:35,751 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:11:35,753 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  24 2020-01-26 14:11:35,778 [24] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  24 2020-01-26 14:11:35,781 [24] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  24 2020-01-26 14:11:35,784 [24] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  24 2020-01-26 14:11:35,787 [24] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  24 2020-01-26 14:11:35,789 [24] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.7552ms.
+
+INFO  24 2020-01-26 14:11:35,791 [24] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  24 2020-01-26 14:11:35,796 [24] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 37.7005ms
+
+INFO  24 2020-01-26 14:11:35,799 [24] ?     - Request finished in 46.8291ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:11:35,818 [19] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  19 2020-01-26 14:11:35,821 [19] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:11:35,823 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:11:35,829 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:11:35,832 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+
+INFO  19 2020-01-26 14:11:35,835 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1)
+ORDER BY [p].[Order]
+
+INFO  19 2020-01-26 14:11:35,837 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.4925ms.
+
+INFO  19 2020-01-26 14:11:35,839 [19] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  19 2020-01-26 14:11:35,841 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 18.51ms
+
+INFO  19 2020-01-26 14:11:35,848 [19] ?     - Request finished in 26.6605ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:11:39,350 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:11:39,352 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:11:39,355 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:11:39,357 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:11:39,399 [9] ?     - Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2)
+
+INFO  9 2020-01-26 14:11:39,409 [9] ?     - Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2)
+ORDER BY [p].[Order]
+
+INFO  9 2020-01-26 14:11:39,412 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 55.0502ms.
+
+INFO  9 2020-01-26 14:11:39,414 [9] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  9 2020-01-26 14:11:39,416 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 62.0541ms
+
+INFO  9 2020-01-26 14:11:39,419 [9] ?     - Request finished in 68.8516ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:11:41,322 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:11:41,325 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:11:41,330 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:11:41,333 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:11:41,337 [19] ?     - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+
+INFO  19 2020-01-26 14:11:41,345 [19] ?     - Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+ORDER BY [p].[Order]
+
+INFO  19 2020-01-26 14:11:41,348 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.151ms.
+
+INFO  19 2020-01-26 14:11:41,351 [19] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  19 2020-01-26 14:11:41,353 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 25.1261ms
+
+INFO  19 2020-01-26 14:11:41,357 [19] ?     - Request finished in 33.9941ms 200 application/json; charset=utf-8
+
+INFO  12 2020-01-26 14:11:43,547 [12] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  12 2020-01-26 14:11:43,550 [12] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:11:43,552 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:11:43,555 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:11:43,557 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+
+INFO  12 2020-01-26 14:11:43,562 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:11:43,565 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.8243ms.
+
+INFO  12 2020-01-26 14:11:43,567 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:11:43,569 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 17.1268ms
+
+INFO  12 2020-01-26 14:11:43,572 [12] ?     - Request finished in 25.1309ms 200 application/json; charset=utf-8
+
+INFO  9 2020-01-26 14:11:43,588 [9] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  9 2020-01-26 14:11:43,591 [9] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  9 2020-01-26 14:11:43,594 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2020-01-26 14:11:43,596 [9] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2020-01-26 14:11:43,599 [9] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+
+INFO  9 2020-01-26 14:11:43,603 [9] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+ORDER BY [p].[Order]
+
+INFO  9 2020-01-26 14:11:43,605 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.2979ms.
+
+INFO  9 2020-01-26 14:11:43,607 [9] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  9 2020-01-26 14:11:43,611 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 17.0877ms
+
+INFO  9 2020-01-26 14:11:43,615 [9] ?     - Request finished in 25.6424ms 200 application/json; charset=utf-8
+
+INFO  24 2020-01-26 14:11:48,090 [24] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  24 2020-01-26 14:11:48,094 [24] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  12 2020-01-26 14:11:48,098 [12] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  12 2020-01-26 14:11:48,100 [12] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  12 2020-01-26 14:11:48,103 [12] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+
+INFO  12 2020-01-26 14:11:48,108 [12] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+ORDER BY [p].[Order]
+
+INFO  12 2020-01-26 14:11:48,113 [12] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11.6236ms.
+
+INFO  12 2020-01-26 14:11:48,115 [12] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  12 2020-01-26 14:11:48,117 [12] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 20.8884ms
+
+INFO  12 2020-01-26 14:11:48,120 [12] ?     - Request finished in 29.2266ms 200 application/json; charset=utf-8
+
+INFO  19 2020-01-26 14:11:48,140 [19] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  19 2020-01-26 14:11:48,145 [19] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing controller action with signature WebStore.Domain.Dto.Product.PagedProductDto GetProducts(WebStore.Domain.Filters.ProductFilter) on controller WebStore.ServicesHosting.Controllers.ProductsApiController (WebStore.ServicesHosting).
+
+INFO  19 2020-01-26 14:11:48,150 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  19 2020-01-26 14:11:48,152 [19] ?     - Entity Framework Core 2.1.14-servicing-32113 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2020-01-26 14:11:48,155 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+
+INFO  19 2020-01-26 14:11:48,160 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[IsDelete], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+WHERE ([p].[IsDelete] = 0) AND [p].[Id] IN (1, 2, 3)
+ORDER BY [p].[Order]
+
+INFO  19 2020-01-26 14:11:48,163 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.8586ms.
+
+INFO  19 2020-01-26 14:11:48,165 [19] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Dto.Product.PagedProductDto'.
+
+INFO  19 2020-01-26 14:11:48,168 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 20.2589ms
+
+INFO  19 2020-01-26 14:11:48,170 [19] ?     - Request finished in 30.1584ms 200 application/json; charset=utf-8
+

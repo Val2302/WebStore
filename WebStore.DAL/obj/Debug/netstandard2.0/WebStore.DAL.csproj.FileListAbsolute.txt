@@ -1,0 +1,36 @@
+D:\Git\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.deps.json
+D:\Git\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.dll
+D:\Git\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.csproj.CoreCompileInputs.cache
+D:\Git\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.AssemblyInfoInputs.cache
+D:\Git\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.AssemblyInfo.cs
+D:\Git\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.csprojAssemblyReference.cache
+D:\Git\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.pdb
+D:\Git\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.Domain.dll
+D:\Git\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.Domain.pdb
+D:\Git\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.csproj.CopyComplete
+D:\Git\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.dll
+D:\Git\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.pdb
+D:\Git\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Git\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.deps.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.Domain.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.Domain.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.csprojAssemblyReference.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.AssemblyInfoInputs.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.AssemblyInfo.cs
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.csproj.CopyComplete
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.pdb
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.deps.json
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.dll
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.DAL.pdb
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.Domain.dll
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.0\WebStore.Domain.pdb
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.csprojAssemblyReference.cache
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.AssemblyInfoInputs.cache
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.AssemblyInfo.cs
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.csproj.CopyComplete
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.dll
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.0\WebStore.DAL.pdb

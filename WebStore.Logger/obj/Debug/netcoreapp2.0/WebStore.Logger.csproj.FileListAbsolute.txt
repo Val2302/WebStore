@@ -1,0 +1,24 @@
+D:\Git\WebStore\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.deps.json
+D:\Git\WebStore\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.dll
+D:\Git\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.csproj.CoreCompileInputs.cache
+D:\Git\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.AssemblyInfoInputs.cache
+D:\Git\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.AssemblyInfo.cs
+D:\Git\WebStore\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.pdb
+D:\Git\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.dll
+D:\Git\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.deps.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.csprojAssemblyReference.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.AssemblyInfoInputs.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.AssemblyInfo.cs
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.deps.json
+d:\Заочка\Диплом\WebStore\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.dll
+d:\Заочка\Диплом\WebStore\WebStore.Logger\bin\Debug\netcoreapp2.0\WebStore.Logger.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.csprojAssemblyReference.cache
+d:\Заочка\Диплом\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.AssemblyInfoInputs.cache
+d:\Заочка\Диплом\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.AssemblyInfo.cs
+d:\Заочка\Диплом\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.dll
+d:\Заочка\Диплом\WebStore\WebStore.Logger\obj\Debug\netcoreapp2.0\WebStore.Logger.pdb

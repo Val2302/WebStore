@@ -1,0 +1,71 @@
+﻿@using WebStore.Domain.Models
+@model IEnumerable<EmployeeViewModel>
+
+@{
+    ViewData["Title"] = "Employee list";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    @if (User.IsInRole("Administrator"))
+    {
+        <hr/>
+        <a asp-action="Edit" class="btn btn-success">Add</a>
+        <hr/>
+    }
+
+    <table class="table">
+        <thead>
+        <tr>
+            @if (User.IsInRole("Administrator"))
+            {
+                <th scope="col"></th>
+            }
+            <th scope="col">Surname</th>
+            <th scope="col">Name</th>
+            <th scope="col">Patronymic</th>
+            <th scope="col">Age</th>
+            <th scope="col"></th>
+            @if (User.IsInRole("Administrator"))
+            {
+                <th scope="col"></th>
+            }
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @if (User.IsInRole("Administrator"))
+                {
+                    <td>
+                        <a asp-action="Edit"
+                           asp-route-id="@item.Id">
+                            <i class="fa fa-edit" title="Edit"></i>
+                        </a>
+                    </td>
+                }
+                <td>@item.SecondName</td>
+                <td>@item.FirstName</td>
+                <td>@item.Patronymic</td>
+                <td>@item.Age</td>
+                <td>
+                    <a asp-action="EmployeeDetails"
+                       asp-route-id=@item.Id>
+                        <i>Подробнее</i>
+                    </a>
+                </td>
+                @if (User.IsInRole("Administrator"))
+                {
+                    <td>
+                        <a asp-action="Delete"
+                           asp-route-id="@item.Id">
+                            <i class="fa fa-cut" title="Remove"></i>
+                        </a>
+                    </td>
+                }
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

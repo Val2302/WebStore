@@ -1,0 +1,12 @@
+D:\Git\WebStore\WebStore.DAL\bin\Release\netstandard2.0\WebStore.DAL.deps.json
+D:\Git\WebStore\WebStore.DAL\bin\Release\netstandard2.0\WebStore.DAL.dll
+D:\Git\WebStore\WebStore.DAL\bin\Release\netstandard2.0\WebStore.DAL.pdb
+D:\Git\WebStore\WebStore.DAL\bin\Release\netstandard2.0\WebStore.Domain.dll
+D:\Git\WebStore\WebStore.DAL\bin\Release\netstandard2.0\WebStore.Domain.pdb
+D:\Git\WebStore\WebStore.DAL\obj\Release\netstandard2.0\WebStore.DAL.csprojAssemblyReference.cache
+D:\Git\WebStore\WebStore.DAL\obj\Release\netstandard2.0\WebStore.DAL.csproj.CoreCompileInputs.cache
+D:\Git\WebStore\WebStore.DAL\obj\Release\netstandard2.0\WebStore.DAL.AssemblyInfoInputs.cache
+D:\Git\WebStore\WebStore.DAL\obj\Release\netstandard2.0\WebStore.DAL.AssemblyInfo.cs
+D:\Git\WebStore\WebStore.DAL\obj\Release\netstandard2.0\WebStore.DAL.csproj.CopyComplete
+D:\Git\WebStore\WebStore.DAL\obj\Release\netstandard2.0\WebStore.DAL.dll
+D:\Git\WebStore\WebStore.DAL\obj\Release\netstandard2.0\WebStore.DAL.pdb

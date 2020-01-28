@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ProductViewModel>
+@{
+    var isBrand = Context.Request.Query.ContainsKey("brandId");
+}
+
+<div class="features_items">
+    <!--features_items-->
+    <h2 class="title text-center">Goods</h2>
+
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-4">
+            <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                        @if (isBrand)
+                        {
+                            <a asp-controller="Catalog"
+                               asp-action="ProductDetails"
+                               asp-route-id="@item.Id"
+                               asp-route-fromBrand="true">
+                                <img src="~/images/shop/@item.ImageUrl" alt="" />
+                                <h2>@item.Price.ToString("C")</h2>
+                                <p>@item.Name</p>
+                            </a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Catalog"
+                               asp-action="ProductDetails"
+                               asp-route-id="@item.Id">
+                                <img src="~/images/shop/@item.ImageUrl" alt="" />
+                                <h2>@item.Price.ToString("C")</h2>
+                                <p>@item.Name</p>
+                            </a>
+                        }
+
+                        <a href="#"
+                           data-id="@item.Id"
+                           class="btn btn-default add-to-cart callAddToCart">
+                            <i class="fa fa-shopping-cart"></i>Add to backet
+                        </a>
+                    </div>
+                </div>
+                <div class="choose">
+                    <ul class="nav nav-pills nav-justified">
+                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wish list</a></li>
+                        <li><a href="#"><i class="fa fa-plus-square"></i>Add for compare</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
+</div><!--features_items-->

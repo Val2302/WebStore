@@ -1,0 +1,4 @@
+D:\Git\WebStore\WebStore.Interfaces\obj\Debug\netcoreapp2.1\WebStore.Interfaces.csprojAssemblyReference.cache
+D:\Git\WebStore\WebStore.Interfaces\obj\Debug\netcoreapp2.1\WebStore.Interfaces.csproj.CoreCompileInputs.cache
+D:\Git\WebStore\WebStore.Interfaces\obj\Debug\netcoreapp2.1\WebStore.Interfaces.AssemblyInfoInputs.cache
+D:\Git\WebStore\WebStore.Interfaces\obj\Debug\netcoreapp2.1\WebStore.Interfaces.AssemblyInfo.cs

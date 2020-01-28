@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+
+  "buildOptions": {
+    "copyToOutput": {
+      "includeFiles": [ "configurationDictionary.json" ]
+    }
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.Configuration.Json": "2.1.1"
+  },
+
+  "testRunner": "nunit",
+
+  "frameworks": {
+    "net461": {}
+  }
+}

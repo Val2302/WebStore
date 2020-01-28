@@ -1,0 +1,48 @@
+﻿@using WebStore.Domain.Models
+@model WebStore.Domain.Models.EmployeeViewModel
+
+@{
+    ViewData["Title"] = $"{Model.SecondName} {Model.FirstName}";
+    Layout = "_Layout";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <table class="table table-bordered">
+            <tr>
+                <td><label asp-for="SecondName"></label></td>
+                <td>@Model.SecondName</td>
+            </tr>
+            <tr>
+                <td><label asp-for="FirstName"></label></td>
+                <td>@Model.FirstName</td>
+            </tr>
+            <tr>
+                <td><label asp-for="Patronymic"></label></td>
+                <td>@Model.Patronymic</td>
+            </tr>
+            <tr>
+                <td><label asp-for="Age"></label></td>
+                <td>@Model.Age</td>
+            </tr>
+            <tr>
+                <td><label asp-for="Position"></label></td>
+                <td>@Model.Position</td>
+            </tr>
+            <tr>
+                <td><label asp-for="Gender"></label></td>
+                <td>
+                    @Model.DisplayGenderEnumItem
+                </td>
+            </tr>
+            <tr>
+                <td><label asp-for="SecretName"></label></td>
+                <td>@Model.SecretName</td>
+            </tr>
+        </table>
+
+    </div>
+</div>

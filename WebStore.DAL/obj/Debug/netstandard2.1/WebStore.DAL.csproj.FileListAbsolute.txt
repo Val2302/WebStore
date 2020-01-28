@@ -1,0 +1,11 @@
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.1\WebStore.DAL.deps.json
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.1\WebStore.DAL.dll
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.1\WebStore.DAL.pdb
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.1\WebStore.Domain.dll
+d:\Заочка\Диплом\WebStore\WebStore.DAL\bin\Debug\netstandard2.1\WebStore.Domain.pdb
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.1\WebStore.DAL.csprojAssemblyReference.cache
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.1\WebStore.DAL.AssemblyInfoInputs.cache
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.1\WebStore.DAL.AssemblyInfo.cs
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.1\WebStore.DAL.csproj.CopyComplete
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.1\WebStore.DAL.dll
+d:\Заочка\Диплом\WebStore\WebStore.DAL\obj\Debug\netstandard2.1\WebStore.DAL.pdb

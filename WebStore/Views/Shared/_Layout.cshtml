@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--/head-->
+    <link rel="icon" type="image/x-icon" href="~/images/favicon16.ico">
+    <title>@ViewBag.Title | E-Shopper</title>
+    @await Html.PartialAsync( "Partial/_HeadLinks" )
+    @RenderSection( "styles", false )
+</head><!--/head-->
+
+<body>
+
+    @await Html.PartialAsync("Partial/_Header")
+    
+    <div class="container">
+        @await RenderSectionAsync("top", false)
+
+        @RenderBody()
+    </div>
+
+    @await Html.PartialAsync("Partial/_Footer")
+
+    @await Html.PartialAsync("Partial/_Scripts")
+    @RenderSection("scripts", false)
+</body>
+</html>

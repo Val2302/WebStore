@@ -1,0 +1,24 @@
+﻿@model DetailsViewModel
+
+@{
+    ViewData["Title"] = "Backet";
+}
+
+<section id="cart_items">
+
+        @await Html.PartialAsync("Partial/_CartInfo", Model.CartViewModel.Items)
+
+</section> <!--/#cart_items-->
+
+<section id="do_action">
+        <div class="heading">
+            <h3>Place an order</h3>
+        </div>
+        <div class="row login-form">
+            @{
+                var sumCart = Model.CartViewModel.Items.Select(pair => pair.Key.Price * pair.Value).Sum();
+            }
+            @Html.Partial("Partial/_Order", Model.OrderViewModel,
+                new ViewDataDictionary(ViewData) {{"sumCart", sumCart}})
+        </div>
+</section><!--/#do_action-->

@@ -1,0 +1,88 @@
+INFO  14 2018-09-18 21:10:31,813 [14] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/users/user/601768d4-43b0-471c-900e-442ba9596901  
+
+WARN  14 2018-09-18 21:10:31,842 [14] ?     - Failed to determine the https port for redirect.
+
+INFO  14 2018-09-18 21:10:32,000 [14] ?     - Route matched with {action = "FindByIdAsync", controller = "UserStoreApi"}. Executing action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting)
+
+INFO  14 2018-09-18 21:10:32,026 [14] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting) with arguments (601768d4-43b0-471c-900e-442ba9596901) - Validation state: Valid
+
+INFO  14 2018-09-18 21:10:32,030 [14] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  16 2018-09-18 21:10:32,045 [16] ?     - Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+
+INFO  16 2018-09-18 21:10:32,057 [16] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 28.2757ms.
+
+INFO  16 2018-09-18 21:10:32,080 [16] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Entities.User'.
+
+INFO  16 2018-09-18 21:10:32,147 [16] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting) in 145.037ms
+
+INFO  16 2018-09-18 21:10:32,156 [16] ?     - Request finished in 349.0846ms 200 application/json; charset=utf-8
+
+INFO  16 2018-09-18 21:10:32,661 [16] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+INFO  16 2018-09-18 21:10:32,663 [16] ?     - Route matched with {action = "Get", controller = "Values"}. Executing action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting)
+
+INFO  16 2018-09-18 21:10:32,665 [16] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  16 2018-09-18 21:10:32,666 [16] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2524ms.
+
+INFO  16 2018-09-18 21:10:32,666 [16] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  16 2018-09-18 21:10:32,668 [16] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 4.397ms
+
+INFO  16 2018-09-18 21:10:32,668 [16] ?     - Request finished in 6.866ms 200 application/json; charset=utf-8
+
+INFO  8 2018-09-18 21:11:25,153 [8] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/users/user/601768d4-43b0-471c-900e-442ba9596901  
+
+INFO  9 2018-09-18 21:11:25,153 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+WARN  8 2018-09-18 21:11:25,181 [8] ?     - Failed to determine the https port for redirect.
+
+INFO  9 2018-09-18 21:11:25,305 [9] ?     - Route matched with {action = "Get", controller = "Values"}. Executing action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting)
+
+INFO  9 2018-09-18 21:11:25,311 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  9 2018-09-18 21:11:25,314 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2398ms.
+
+INFO  8 2018-09-18 21:11:25,316 [8] ?     - Route matched with {action = "FindByIdAsync", controller = "UserStoreApi"}. Executing action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting)
+
+INFO  9 2018-09-18 21:11:25,325 [9] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  8 2018-09-18 21:11:25,337 [8] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting) with arguments (601768d4-43b0-471c-900e-442ba9596901) - Validation state: Valid
+
+INFO  8 2018-09-18 21:11:25,342 [8] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2018-09-18 21:11:25,383 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 74.6175ms
+
+INFO  9 2018-09-18 21:11:25,387 [9] ?     - Request finished in 238.6317ms 200 application/json; charset=utf-8
+
+INFO  8 2018-09-18 21:11:25,391 [8] ?     - Executed DbCommand (35ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+
+INFO  8 2018-09-18 21:11:25,403 [8] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 65.8135ms.
+
+INFO  8 2018-09-18 21:11:25,426 [8] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Entities.User'.
+
+INFO  8 2018-09-18 21:11:25,461 [8] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting) in 143.5792ms
+
+INFO  8 2018-09-18 21:11:25,469 [8] ?     - Request finished in 320.5281ms 200 application/json; charset=utf-8
+
+INFO  8 2018-09-18 21:11:25,908 [8] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+INFO  8 2018-09-18 21:11:25,910 [8] ?     - Route matched with {action = "Get", controller = "Values"}. Executing action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting)
+
+INFO  8 2018-09-18 21:11:25,910 [8] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  8 2018-09-18 21:11:25,911 [8] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0532ms.
+
+INFO  8 2018-09-18 21:11:25,911 [8] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  8 2018-09-18 21:11:25,911 [8] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 1.0238ms
+
+INFO  8 2018-09-18 21:11:25,911 [8] ?     - Request finished in 3.2597ms 200 application/json; charset=utf-8
+

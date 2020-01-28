@@ -1,0 +1,56 @@
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\log4net.config
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\appsettings.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\bundleconfig.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\libman.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.deps.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.runtimeconfig.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.runtimeconfig.dev.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Clients.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.DAL.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Domain.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Interfaces.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Logger.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Services.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Clients.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Domain.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Interfaces.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Logger.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.Services.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\bin\Debug\netcoreapp2.0\WebStore.DAL.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\obj\Debug\netcoreapp2.0\WebStore.csprojAssemblyReference.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\obj\Debug\netcoreapp2.0\WebStore.AssemblyInfoInputs.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\obj\Debug\netcoreapp2.0\WebStore.AssemblyInfo.cs
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\obj\Debug\netcoreapp2.0\WebStore.csproj.CopyComplete
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\obj\Debug\netcoreapp2.0\WebStore.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore\obj\Debug\netcoreapp2.0\WebStore.pdb
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\log4net.config
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\appsettings.json
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\bundleconfig.json
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\libman.json
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.deps.json
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.runtimeconfig.json
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.runtimeconfig.dev.json
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.dll
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.pdb
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Clients.dll
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.DAL.dll
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Domain.dll
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Interfaces.dll
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Logger.dll
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Services.dll
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Clients.pdb
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Domain.pdb
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Interfaces.pdb
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Logger.pdb
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.Services.pdb
+d:\Заочка\Диплом\WebStore\WebStore\bin\Debug\netcoreapp2.0\WebStore.DAL.pdb
+d:\Заочка\Диплом\WebStore\WebStore\obj\Debug\netcoreapp2.0\WebStore.csprojAssemblyReference.cache
+d:\Заочка\Диплом\WebStore\WebStore\obj\Debug\netcoreapp2.0\WebStore.AssemblyInfoInputs.cache
+d:\Заочка\Диплом\WebStore\WebStore\obj\Debug\netcoreapp2.0\WebStore.AssemblyInfo.cs
+d:\Заочка\Диплом\WebStore\WebStore\obj\Debug\netcoreapp2.0\WebStore.csproj.CopyComplete
+d:\Заочка\Диплом\WebStore\WebStore\obj\Debug\netcoreapp2.0\WebStore.dll
+d:\Заочка\Диплом\WebStore\WebStore\obj\Debug\netcoreapp2.0\WebStore.pdb

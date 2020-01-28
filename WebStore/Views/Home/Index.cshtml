@@ -1,0 +1,24 @@
+﻿@*@model IEnumerable<ProductViewModel>*@
+@model IEnumerable<string>
+
+
+@{
+    ViewData["Title"] = "Main";
+    Layout = "_SideBarLayout";
+}
+
+@section top{
+    @await Html.PartialAsync("Partial/_Slider")
+}
+
+@await Html.PartialAsync("Partial/_Category")
+
+@await Html.PartialAsync("Partial/_Recommended")
+
+@section scripts{
+    @*<script>
+        $(function () {
+            alert("Страница загрузилась");
+        })
+    </script>*@
+}

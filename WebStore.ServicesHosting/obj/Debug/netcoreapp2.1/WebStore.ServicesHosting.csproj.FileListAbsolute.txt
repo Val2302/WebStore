@@ -1,0 +1,88 @@
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.deps.json
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.runtimeconfig.json
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.runtimeconfig.dev.json
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.dll
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.pdb
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.csproj.CoreCompileInputs.cache
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorAssemblyInfo.cache
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorAssemblyInfo.cs
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.AssemblyInfoInputs.cache
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.AssemblyInfo.cs
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorTargetAssemblyInfo.cache
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.dll
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.pdb
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.csprojAssemblyReference.cache
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.DAL.dll
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Interfaces.dll
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Services.dll
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.DAL.pdb
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Interfaces.pdb
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Services.pdb
+D:\Git\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.csproj.CopyComplete
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Clients.dll
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Clients.pdb
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\log4net.config
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Logger.dll
+D:\Git\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Logger.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\log4net.config
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\appsettings.Development.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\appsettings.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.deps.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.runtimeconfig.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.runtimeconfig.dev.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Clients.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.DAL.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Interfaces.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Logger.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Services.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Clients.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.DAL.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Interfaces.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Logger.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Services.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.csprojAssemblyReference.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorAssemblyInfo.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorAssemblyInfo.cs
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.AssemblyInfoInputs.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.AssemblyInfo.cs
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorTargetAssemblyInfo.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.csproj.CopyComplete
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.pdb
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\log4net.config
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\appsettings.Development.json
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\appsettings.json
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.deps.json
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.runtimeconfig.json
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.runtimeconfig.dev.json
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.dll
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.ServicesHosting.pdb
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Clients.dll
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.DAL.dll
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Interfaces.dll
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Logger.dll
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Services.dll
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Clients.pdb
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.DAL.pdb
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Interfaces.pdb
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Logger.pdb
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\bin\Debug\netcoreapp2.1\WebStore.Services.pdb
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.csprojAssemblyReference.cache
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorAssemblyInfo.cache
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorAssemblyInfo.cs
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.AssemblyInfoInputs.cache
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.AssemblyInfo.cs
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.RazorTargetAssemblyInfo.cache
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.csproj.CopyComplete
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.dll
+d:\Заочка\Диплом\WebStore\WebStore.ServicesHosting\obj\Debug\netcoreapp2.1\WebStore.ServicesHosting.pdb

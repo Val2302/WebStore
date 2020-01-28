@@ -1,0 +1,1441 @@
+INFO  10 2018-08-18 22:39:56,135 [10] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/users/user/601768d4-43b0-471c-900e-442ba9596901  
+
+INFO  7 2018-08-18 22:39:56,135 [7] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+WARN  10 2018-08-18 22:39:56,166 [10] ?     - Failed to determine the https port for redirect.
+
+INFO  7 2018-08-18 22:39:56,276 [7] ?     - Route matched with {action = "Get", controller = "Values"}. Executing action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting)
+
+INFO  7 2018-08-18 22:39:56,283 [7] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  7 2018-08-18 22:39:56,286 [7] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.278ms.
+
+INFO  10 2018-08-18 22:39:56,290 [10] ?     - Route matched with {action = "FindByIdAsync", controller = "UserStoreApi"}. Executing action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting)
+
+INFO  7 2018-08-18 22:39:56,295 [7] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  10 2018-08-18 22:39:56,310 [10] ?     - Executing action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting) with arguments (601768d4-43b0-471c-900e-442ba9596901) - Validation state: Valid
+
+INFO  10 2018-08-18 22:39:56,314 [10] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  8 2018-08-18 22:39:56,328 [8] ?     - Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+
+INFO  7 2018-08-18 22:39:56,337 [7] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 58.6926ms
+
+INFO  7 2018-08-18 22:39:56,342 [7] ?     - Request finished in 210.2946ms 200 application/json; charset=utf-8
+
+INFO  7 2018-08-18 22:39:56,344 [7] ?     - Executed action method WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 33.37ms.
+
+INFO  7 2018-08-18 22:39:56,354 [7] ?     - Executing ObjectResult, writing value of type 'WebStore.Domain.Entities.User'.
+
+INFO  7 2018-08-18 22:39:56,382 [7] ?     - Executed action WebStore.ServicesHosting.Controllers.Users.UserStoreApiController.FindByIdAsync (WebStore.ServicesHosting) in 91.6847ms
+
+INFO  7 2018-08-18 22:39:56,396 [7] ?     - Request finished in 264.9034ms 200 application/json; charset=utf-8
+
+INFO  16 2018-08-18 22:39:56,740 [16] ?     - Request starting HTTP/1.1 GET http://localhost:18992/favicon.ico  
+
+INFO  16 2018-08-18 22:39:56,742 [16] ?     - Request finished in 1.999ms 404 
+
+INFO  22 2018-08-18 22:41:07,719 [22] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+INFO  22 2018-08-18 22:41:07,721 [22] ?     - Route matched with {action = "Get", controller = "Values"}. Executing action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting)
+
+INFO  22 2018-08-18 22:41:07,721 [22] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  22 2018-08-18 22:41:07,721 [22] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0349ms.
+
+INFO  22 2018-08-18 22:41:07,722 [22] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  22 2018-08-18 22:41:07,722 [22] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 0.7365ms
+
+INFO  22 2018-08-18 22:41:07,722 [22] ?     - Request finished in 2.4458ms 200 application/json; charset=utf-8
+
+INFO  21 2018-08-18 22:41:08,412 [21] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  21 2018-08-18 22:41:08,413 [21] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting)
+
+INFO  21 2018-08-18 22:41:08,417 [21] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  21 2018-08-18 22:41:08,418 [21] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  21 2018-08-18 22:41:08,424 [21] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  21 2018-08-18 22:41:08,570 [21] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 152.2338ms.
+
+INFO  21 2018-08-18 22:41:08,570 [21] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  21 2018-08-18 22:41:08,573 [21] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 159.4898ms
+
+INFO  21 2018-08-18 22:41:08,573 [21] ?     - Request finished in 161.2807ms 200 application/json; charset=utf-8
+
+INFO  26 2018-08-18 22:41:08,754 [26] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  26 2018-08-18 22:41:08,755 [26] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting)
+
+INFO  26 2018-08-18 22:41:08,755 [26] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  26 2018-08-18 22:41:08,756 [26] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  26 2018-08-18 22:41:08,761 [26] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  26 2018-08-18 22:41:08,774 [26] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.8396ms.
+
+INFO  26 2018-08-18 22:41:08,774 [26] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  26 2018-08-18 22:41:08,776 [26] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 21.3877ms
+
+INFO  26 2018-08-18 22:41:08,776 [26] ?     - Request finished in 22.8106ms 200 application/json; charset=utf-8
+
+INFO  26 2018-08-18 22:41:08,800 [26] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  26 2018-08-18 22:41:08,801 [26] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  26 2018-08-18 22:41:08,802 [26] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (1) - Validation state: Valid
+
+INFO  26 2018-08-18 22:41:08,803 [26] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  26 2018-08-18 22:41:08,815 [26] ?     - Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  26 2018-08-18 22:41:08,816 [26] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14.3047ms.
+
+INFO  26 2018-08-18 22:41:08,816 [26] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  26 2018-08-18 22:41:08,816 [26] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 15.1667ms
+
+INFO  26 2018-08-18 22:41:08,817 [26] ?     - Request finished in 16.9443ms 200 application/json; charset=utf-8
+
+INFO  26 2018-08-18 22:41:08,824 [26] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  26 2018-08-18 22:41:08,824 [26] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  26 2018-08-18 22:41:08,824 [26] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (2) - Validation state: Valid
+
+INFO  26 2018-08-18 22:41:08,824 [26] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  26 2018-08-18 22:41:08,825 [26] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  26 2018-08-18 22:41:08,825 [26] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9622ms.
+
+INFO  26 2018-08-18 22:41:08,825 [26] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  26 2018-08-18 22:41:08,825 [26] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.4743ms
+
+INFO  26 2018-08-18 22:41:08,825 [26] ?     - Request finished in 1.829ms 200 application/json; charset=utf-8
+
+INFO  26 2018-08-18 22:41:08,827 [26] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  26 2018-08-18 22:41:08,828 [26] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  26 2018-08-18 22:41:08,828 [26] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (3) - Validation state: Valid
+
+INFO  26 2018-08-18 22:41:08,828 [26] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  26 2018-08-18 22:41:08,829 [26] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  26 2018-08-18 22:41:08,829 [26] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0593ms.
+
+INFO  26 2018-08-18 22:41:08,829 [26] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  26 2018-08-18 22:41:08,829 [26] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.5263ms
+
+INFO  26 2018-08-18 22:41:08,829 [26] ?     - Request finished in 1.8437ms 200 application/json; charset=utf-8
+
+INFO  26 2018-08-18 22:41:08,831 [26] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  26 2018-08-18 22:41:08,832 [26] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  26 2018-08-18 22:41:08,832 [26] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (4) - Validation state: Valid
+
+INFO  26 2018-08-18 22:41:08,832 [26] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  26 2018-08-18 22:41:08,833 [26] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  26 2018-08-18 22:41:08,833 [26] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0016ms.
+
+INFO  26 2018-08-18 22:41:08,833 [26] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  26 2018-08-18 22:41:08,833 [26] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.4809ms
+
+INFO  26 2018-08-18 22:41:08,833 [26] ?     - Request finished in 1.7875ms 200 application/json; charset=utf-8
+
+INFO  26 2018-08-18 22:41:08,835 [26] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  26 2018-08-18 22:41:08,835 [26] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  26 2018-08-18 22:41:08,836 [26] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (5) - Validation state: Valid
+
+INFO  26 2018-08-18 22:41:08,836 [26] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  26 2018-08-18 22:41:08,837 [26] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  26 2018-08-18 22:41:08,837 [26] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.886ms.
+
+INFO  26 2018-08-18 22:41:08,837 [26] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  26 2018-08-18 22:41:08,837 [26] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.4099ms
+
+INFO  26 2018-08-18 22:41:08,837 [26] ?     - Request finished in 1.7481ms 200 application/json; charset=utf-8
+
+INFO  17 2018-08-18 22:41:08,839 [17] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  17 2018-08-18 22:41:08,839 [17] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  17 2018-08-18 22:41:08,839 [17] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (6) - Validation state: Valid
+
+INFO  17 2018-08-18 22:41:08,840 [17] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  17 2018-08-18 22:41:08,840 [17] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  17 2018-08-18 22:41:08,840 [17] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9956ms.
+
+INFO  17 2018-08-18 22:41:08,840 [17] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  17 2018-08-18 22:41:08,841 [17] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.449ms
+
+INFO  17 2018-08-18 22:41:08,841 [17] ?     - Request finished in 1.7315ms 200 application/json; charset=utf-8
+
+INFO  23 2018-08-18 22:41:08,843 [23] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  23 2018-08-18 22:41:08,843 [23] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  23 2018-08-18 22:41:08,843 [23] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (7) - Validation state: Valid
+
+INFO  23 2018-08-18 22:41:08,844 [23] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  23 2018-08-18 22:41:08,844 [23] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  23 2018-08-18 22:41:08,844 [23] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0275ms.
+
+INFO  23 2018-08-18 22:41:08,844 [23] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  23 2018-08-18 22:41:08,845 [23] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.5158ms
+
+INFO  23 2018-08-18 22:41:08,845 [23] ?     - Request finished in 1.8612ms 200 application/json; charset=utf-8
+
+INFO  23 2018-08-18 22:41:09,396 [23] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  23 2018-08-18 22:41:09,399 [23] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  23 2018-08-18 22:41:09,422 [23] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  23 2018-08-18 22:41:09,424 [23] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  23 2018-08-18 22:41:09,468 [23] ?     - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  23 2018-08-18 22:41:09,502 [23] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 79.3983ms.
+
+INFO  23 2018-08-18 22:41:09,502 [23] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  23 2018-08-18 22:41:09,506 [23] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 106.3349ms
+
+INFO  23 2018-08-18 22:41:09,506 [23] ?     - Request finished in 109.8895ms 200 application/json; charset=utf-8
+
+INFO  30 2018-08-18 22:42:29,012 [30] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+INFO  30 2018-08-18 22:42:29,012 [30] ?     - Route matched with {action = "Get", controller = "Values"}. Executing action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting)
+
+INFO  30 2018-08-18 22:42:29,012 [30] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  30 2018-08-18 22:42:29,013 [30] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0057ms.
+
+INFO  30 2018-08-18 22:42:29,013 [30] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  30 2018-08-18 22:42:29,013 [30] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 0.3354ms
+
+INFO  30 2018-08-18 22:42:29,013 [30] ?     - Request finished in 0.7154ms 200 application/json; charset=utf-8
+
+INFO  30 2018-08-18 22:42:29,018 [30] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  30 2018-08-18 22:42:29,019 [30] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting)
+
+INFO  30 2018-08-18 22:42:29,019 [30] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  30 2018-08-18 22:42:29,019 [30] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  30 2018-08-18 22:42:29,021 [30] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  30 2018-08-18 22:42:29,023 [30] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.0429ms.
+
+INFO  30 2018-08-18 22:42:29,023 [30] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  30 2018-08-18 22:42:29,023 [30] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 4.7839ms
+
+INFO  30 2018-08-18 22:42:29,024 [30] ?     - Request finished in 5.1706ms 200 application/json; charset=utf-8
+
+INFO  35 2018-08-18 22:42:29,030 [35] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  35 2018-08-18 22:42:29,030 [35] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting)
+
+INFO  35 2018-08-18 22:42:29,030 [35] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  35 2018-08-18 22:42:29,030 [35] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  35 2018-08-18 22:42:29,031 [35] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  35 2018-08-18 22:42:29,032 [35] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.9036ms.
+
+INFO  35 2018-08-18 22:42:29,032 [35] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  35 2018-08-18 22:42:29,032 [35] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 2.3826ms
+
+INFO  35 2018-08-18 22:42:29,032 [35] ?     - Request finished in 2.725ms 200 application/json; charset=utf-8
+
+INFO  29 2018-08-18 22:42:29,036 [29] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  29 2018-08-18 22:42:29,036 [29] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  29 2018-08-18 22:42:29,036 [29] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (1) - Validation state: Valid
+
+INFO  29 2018-08-18 22:42:29,036 [29] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  29 2018-08-18 22:42:29,038 [29] ?     - Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  29 2018-08-18 22:42:29,038 [29] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.1085ms.
+
+INFO  29 2018-08-18 22:42:29,038 [29] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  29 2018-08-18 22:42:29,038 [29] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 2.602ms
+
+INFO  29 2018-08-18 22:42:29,038 [29] ?     - Request finished in 2.9263ms 200 application/json; charset=utf-8
+
+INFO  29 2018-08-18 22:42:29,040 [29] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  29 2018-08-18 22:42:29,041 [29] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  29 2018-08-18 22:42:29,041 [29] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (2) - Validation state: Valid
+
+INFO  29 2018-08-18 22:42:29,041 [29] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  29 2018-08-18 22:42:29,042 [29] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  29 2018-08-18 22:42:29,042 [29] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0681ms.
+
+INFO  29 2018-08-18 22:42:29,042 [29] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  29 2018-08-18 22:42:29,042 [29] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.5224ms
+
+INFO  29 2018-08-18 22:42:29,042 [29] ?     - Request finished in 1.8437ms 200 application/json; charset=utf-8
+
+INFO  35 2018-08-18 22:42:29,044 [35] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  35 2018-08-18 22:42:29,045 [35] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  35 2018-08-18 22:42:29,045 [35] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (3) - Validation state: Valid
+
+INFO  35 2018-08-18 22:42:29,045 [35] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  35 2018-08-18 22:42:29,046 [35] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  35 2018-08-18 22:42:29,046 [35] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0253ms.
+
+INFO  35 2018-08-18 22:42:29,046 [35] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  35 2018-08-18 22:42:29,046 [35] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.4568ms
+
+INFO  35 2018-08-18 22:42:29,046 [35] ?     - Request finished in 1.8248ms 200 application/json; charset=utf-8
+
+INFO  35 2018-08-18 22:42:29,048 [35] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  35 2018-08-18 22:42:29,049 [35] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  35 2018-08-18 22:42:29,049 [35] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (4) - Validation state: Valid
+
+INFO  35 2018-08-18 22:42:29,049 [35] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  35 2018-08-18 22:42:29,050 [35] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  35 2018-08-18 22:42:29,050 [35] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1478ms.
+
+INFO  35 2018-08-18 22:42:29,050 [35] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  35 2018-08-18 22:42:29,050 [35] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6385ms
+
+INFO  35 2018-08-18 22:42:29,050 [35] ?     - Request finished in 1.987ms 200 application/json; charset=utf-8
+
+INFO  35 2018-08-18 22:42:29,053 [35] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  35 2018-08-18 22:42:29,053 [35] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  35 2018-08-18 22:42:29,053 [35] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (5) - Validation state: Valid
+
+INFO  35 2018-08-18 22:42:29,054 [35] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  35 2018-08-18 22:42:29,054 [35] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  35 2018-08-18 22:42:29,054 [35] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1565ms.
+
+INFO  35 2018-08-18 22:42:29,055 [35] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  35 2018-08-18 22:42:29,055 [35] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.7442ms
+
+INFO  35 2018-08-18 22:42:29,055 [35] ?     - Request finished in 2.0775ms 200 application/json; charset=utf-8
+
+INFO  35 2018-08-18 22:42:29,057 [35] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  35 2018-08-18 22:42:29,057 [35] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  35 2018-08-18 22:42:29,057 [35] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (6) - Validation state: Valid
+
+INFO  35 2018-08-18 22:42:29,058 [35] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  35 2018-08-18 22:42:29,058 [35] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  35 2018-08-18 22:42:29,058 [35] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0377ms.
+
+INFO  35 2018-08-18 22:42:29,059 [35] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  35 2018-08-18 22:42:29,059 [35] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.5326ms
+
+INFO  35 2018-08-18 22:42:29,059 [35] ?     - Request finished in 1.8519ms 200 application/json; charset=utf-8
+
+INFO  35 2018-08-18 22:42:29,061 [35] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  35 2018-08-18 22:42:29,061 [35] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  35 2018-08-18 22:42:29,061 [35] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (7) - Validation state: Valid
+
+INFO  35 2018-08-18 22:42:29,062 [35] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  35 2018-08-18 22:42:29,062 [35] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  35 2018-08-18 22:42:29,063 [35] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1301ms.
+
+INFO  35 2018-08-18 22:42:29,063 [35] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  35 2018-08-18 22:42:29,063 [35] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6334ms
+
+INFO  35 2018-08-18 22:42:29,063 [35] ?     - Request finished in 1.953ms 200 application/json; charset=utf-8
+
+INFO  35 2018-08-18 22:42:29,071 [35] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  35 2018-08-18 22:42:29,071 [35] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  32 2018-08-18 22:42:29,083 [32] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  32 2018-08-18 22:42:29,083 [32] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  32 2018-08-18 22:42:29,086 [32] ?     - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  32 2018-08-18 22:42:29,088 [32] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.53ms.
+
+INFO  32 2018-08-18 22:42:29,088 [32] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  32 2018-08-18 22:42:29,088 [32] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 17.0478ms
+
+INFO  32 2018-08-18 22:42:29,088 [32] ?     - Request finished in 17.4468ms 200 application/json; charset=utf-8
+
+INFO  7 2018-08-18 22:43:29,686 [7] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+INFO  10 2018-08-18 22:43:29,686 [10] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/values  
+
+WARN  7 2018-08-18 22:43:29,708 [7] ?     - Failed to determine the https port for redirect.
+
+INFO  10 2018-08-18 22:43:29,827 [10] ?     - Route matched with {action = "Get", controller = "Values"}. Executing action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting)
+
+INFO  7 2018-08-18 22:43:29,827 [7] ?     - Route matched with {action = "Get", controller = "Values"}. Executing action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting)
+
+INFO  10 2018-08-18 22:43:29,835 [10] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  7 2018-08-18 22:43:29,835 [7] ?     - Executing action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  7 2018-08-18 22:43:29,838 [7] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3481ms.
+
+INFO  10 2018-08-18 22:43:29,838 [10] ?     - Executed action method WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2503ms.
+
+INFO  7 2018-08-18 22:43:29,848 [7] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  10 2018-08-18 22:43:29,848 [10] ?     - Executing ObjectResult, writing value of type 'System.String[]'.
+
+INFO  7 2018-08-18 22:43:29,886 [7] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 57.335ms
+
+INFO  10 2018-08-18 22:43:29,886 [10] ?     - Executed action WebStore.ServicesHosting.Controllers.ValuesController.Get (WebStore.ServicesHosting) in 57.4503ms
+
+INFO  10 2018-08-18 22:43:29,890 [10] ?     - Request finished in 206.4617ms 200 application/json; charset=utf-8
+
+INFO  7 2018-08-18 22:43:29,890 [7] ?     - Request finished in 206.6774ms 200 application/json; charset=utf-8
+
+INFO  13 2018-08-18 22:43:32,945 [13] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  13 2018-08-18 22:43:32,948 [13] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting)
+
+INFO  13 2018-08-18 22:43:32,952 [13] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  13 2018-08-18 22:43:32,954 [13] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  13 2018-08-18 22:43:32,962 [13] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  13 2018-08-18 22:43:33,142 [13] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 190.2112ms.
+
+INFO  13 2018-08-18 22:43:33,143 [13] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  13 2018-08-18 22:43:33,152 [13] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 204.4693ms
+
+INFO  13 2018-08-18 22:43:33,152 [13] ?     - Request finished in 207.1453ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:43:33,419 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  15 2018-08-18 22:43:33,421 [15] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:43:33,422 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  15 2018-08-18 22:43:33,423 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:43:33,431 [15] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  15 2018-08-18 22:43:33,446 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 23.8507ms.
+
+INFO  15 2018-08-18 22:43:33,446 [15] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  15 2018-08-18 22:43:33,449 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 27.0424ms
+
+INFO  15 2018-08-18 22:43:33,449 [15] ?     - Request finished in 29.485ms 200 application/json; charset=utf-8
+
+INFO  9 2018-08-18 22:43:33,479 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  9 2018-08-18 22:43:33,490 [9] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  9 2018-08-18 22:43:33,502 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (1) - Validation state: Valid
+
+INFO  9 2018-08-18 22:43:33,504 [9] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2018-08-18 22:43:33,521 [9] ?     - Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  9 2018-08-18 22:43:33,524 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.0309ms.
+
+INFO  9 2018-08-18 22:43:33,524 [9] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  9 2018-08-18 22:43:33,524 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 33.7292ms
+
+INFO  9 2018-08-18 22:43:33,524 [9] ?     - Request finished in 45.1154ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:43:33,533 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  15 2018-08-18 22:43:33,533 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:43:33,534 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (2) - Validation state: Valid
+
+INFO  15 2018-08-18 22:43:33,535 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:43:33,536 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:43:33,536 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2639ms.
+
+INFO  15 2018-08-18 22:43:33,536 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:43:33,536 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 2.4488ms
+
+INFO  15 2018-08-18 22:43:33,536 [15] ?     - Request finished in 2.9049ms 200 application/json; charset=utf-8
+
+INFO  9 2018-08-18 22:43:33,539 [9] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  9 2018-08-18 22:43:33,539 [9] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  9 2018-08-18 22:43:33,540 [9] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (3) - Validation state: Valid
+
+INFO  9 2018-08-18 22:43:33,540 [9] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  9 2018-08-18 22:43:33,541 [9] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  9 2018-08-18 22:43:33,541 [9] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3795ms.
+
+INFO  9 2018-08-18 22:43:33,541 [9] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  9 2018-08-18 22:43:33,541 [9] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 2.1344ms
+
+INFO  9 2018-08-18 22:43:33,541 [9] ?     - Request finished in 2.5328ms 200 application/json; charset=utf-8
+
+INFO  13 2018-08-18 22:43:33,544 [13] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  13 2018-08-18 22:43:33,545 [13] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  13 2018-08-18 22:43:33,545 [13] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (4) - Validation state: Valid
+
+INFO  13 2018-08-18 22:43:33,546 [13] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  13 2018-08-18 22:43:33,547 [13] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  13 2018-08-18 22:43:33,547 [13] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.5188ms.
+
+INFO  13 2018-08-18 22:43:33,547 [13] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  13 2018-08-18 22:43:33,547 [13] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 2.1943ms
+
+INFO  13 2018-08-18 22:43:33,547 [13] ?     - Request finished in 2.8992ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:43:33,551 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  15 2018-08-18 22:43:33,551 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:43:33,551 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (5) - Validation state: Valid
+
+INFO  15 2018-08-18 22:43:33,552 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:43:33,552 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:43:33,552 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2218ms.
+
+INFO  15 2018-08-18 22:43:33,553 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:43:33,553 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.7706ms
+
+INFO  15 2018-08-18 22:43:33,553 [15] ?     - Request finished in 2.2517ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:43:33,556 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  15 2018-08-18 22:43:33,556 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:43:33,557 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (6) - Validation state: Valid
+
+INFO  15 2018-08-18 22:43:33,557 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:43:33,558 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:43:33,558 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1439ms.
+
+INFO  15 2018-08-18 22:43:33,558 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:43:33,558 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.631ms
+
+INFO  15 2018-08-18 22:43:33,558 [15] ?     - Request finished in 1.9903ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:43:33,560 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  15 2018-08-18 22:43:33,561 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:43:33,562 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (7) - Validation state: Valid
+
+INFO  15 2018-08-18 22:43:33,562 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:43:33,563 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:43:33,563 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4282ms.
+
+INFO  15 2018-08-18 22:43:33,563 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:43:33,563 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 2.7046ms
+
+INFO  15 2018-08-18 22:43:33,564 [15] ?     - Request finished in 3.1264ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:43:34,292 [15] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  15 2018-08-18 22:43:34,295 [15] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:43:34,350 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  15 2018-08-18 22:43:34,352 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:43:34,401 [15] ?     - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  15 2018-08-18 22:43:34,432 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 82.3824ms.
+
+INFO  15 2018-08-18 22:43:34,433 [15] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  15 2018-08-18 22:43:34,439 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 143.3482ms
+
+INFO  15 2018-08-18 22:43:34,441 [15] ?     - Request finished in 149.7341ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,298 [15] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  15 2018-08-18 22:44:17,298 [15] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,299 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,300 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,304 [15] ?     - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  15 2018-08-18 22:44:17,306 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.5197ms.
+
+INFO  15 2018-08-18 22:44:17,306 [15] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  15 2018-08-18 22:44:17,306 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 8.2498ms
+
+INFO  15 2018-08-18 22:44:17,306 [15] ?     - Request finished in 8.6466ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,567 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  15 2018-08-18 22:44:17,567 [15] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,567 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,568 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,569 [15] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  15 2018-08-18 22:44:17,570 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.5965ms.
+
+INFO  15 2018-08-18 22:44:17,570 [15] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  15 2018-08-18 22:44:17,570 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 3.0557ms
+
+INFO  15 2018-08-18 22:44:17,570 [15] ?     - Request finished in 3.3614ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,577 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  15 2018-08-18 22:44:17,577 [15] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,577 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,577 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,578 [15] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  15 2018-08-18 22:44:17,579 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.8143ms.
+
+INFO  15 2018-08-18 22:44:17,579 [15] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  15 2018-08-18 22:44:17,579 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 2.3447ms
+
+INFO  15 2018-08-18 22:44:17,579 [15] ?     - Request finished in 2.7277ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,582 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  15 2018-08-18 22:44:17,582 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,582 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (1) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,583 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,585 [15] ?     - Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:44:17,585 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.9335ms.
+
+INFO  15 2018-08-18 22:44:17,585 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:44:17,586 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 3.5545ms
+
+INFO  15 2018-08-18 22:44:17,586 [15] ?     - Request finished in 3.8825ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:17,588 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  20 2018-08-18 22:44:17,588 [20] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:17,589 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (2) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:17,589 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:17,590 [20] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  20 2018-08-18 22:44:17,590 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2167ms.
+
+INFO  20 2018-08-18 22:44:17,590 [20] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  20 2018-08-18 22:44:17,590 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.823ms
+
+INFO  20 2018-08-18 22:44:17,590 [20] ?     - Request finished in 2.2581ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,593 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  15 2018-08-18 22:44:17,593 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,594 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (3) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,594 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,595 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:44:17,595 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3049ms.
+
+INFO  15 2018-08-18 22:44:17,595 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:44:17,595 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.8898ms
+
+INFO  15 2018-08-18 22:44:17,595 [15] ?     - Request finished in 2.2424ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,598 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  15 2018-08-18 22:44:17,598 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,598 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (4) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,599 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,599 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:44:17,599 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1559ms.
+
+INFO  15 2018-08-18 22:44:17,599 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:44:17,599 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6449ms
+
+INFO  15 2018-08-18 22:44:17,600 [15] ?     - Request finished in 1.9776ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,602 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  15 2018-08-18 22:44:17,602 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,602 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (5) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,603 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,604 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:44:17,604 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1246ms.
+
+INFO  15 2018-08-18 22:44:17,604 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:44:17,604 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6548ms
+
+INFO  15 2018-08-18 22:44:17,604 [15] ?     - Request finished in 2.0035ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,606 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  15 2018-08-18 22:44:17,606 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,606 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (6) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,607 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,608 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:44:17,608 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1096ms.
+
+INFO  15 2018-08-18 22:44:17,608 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:44:17,608 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.5949ms
+
+INFO  15 2018-08-18 22:44:17,608 [15] ?     - Request finished in 1.8805ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,610 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  15 2018-08-18 22:44:17,611 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,611 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (7) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,611 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,612 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:44:17,612 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0873ms.
+
+INFO  15 2018-08-18 22:44:17,612 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:44:17,612 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.607ms
+
+INFO  15 2018-08-18 22:44:17,612 [15] ?     - Request finished in 2.051ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:17,621 [15] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  15 2018-08-18 22:44:17,621 [15] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:17,623 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:17,624 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:17,625 [15] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  15 2018-08-18 22:44:17,627 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.4158ms.
+
+INFO  15 2018-08-18 22:44:17,627 [15] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  15 2018-08-18 22:44:17,627 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 6.0428ms
+
+INFO  15 2018-08-18 22:44:17,627 [15] ?     - Request finished in 6.4773ms 200 application/json; charset=utf-8
+
+INFO  19 2018-08-18 22:44:22,958 [19] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  19 2018-08-18 22:44:22,958 [19] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  19 2018-08-18 22:44:22,959 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  19 2018-08-18 22:44:22,960 [19] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2018-08-18 22:44:22,961 [19] ?     - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  19 2018-08-18 22:44:22,962 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.9128ms.
+
+INFO  19 2018-08-18 22:44:22,962 [19] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  19 2018-08-18 22:44:22,963 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 4.6594ms
+
+INFO  19 2018-08-18 22:44:22,963 [19] ?     - Request finished in 5.0252ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:26,421 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  15 2018-08-18 22:44:26,422 [15] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:26,422 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:26,422 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:26,423 [15] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  15 2018-08-18 22:44:26,424 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.7126ms.
+
+INFO  15 2018-08-18 22:44:26,424 [15] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  15 2018-08-18 22:44:26,424 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 2.1353ms
+
+INFO  15 2018-08-18 22:44:26,424 [15] ?     - Request finished in 2.4533ms 200 application/json; charset=utf-8
+
+INFO  18 2018-08-18 22:44:26,429 [18] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  18 2018-08-18 22:44:26,429 [18] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting)
+
+INFO  18 2018-08-18 22:44:26,429 [18] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  18 2018-08-18 22:44:26,430 [18] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  18 2018-08-18 22:44:26,430 [18] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  18 2018-08-18 22:44:26,431 [18] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1015ms.
+
+INFO  18 2018-08-18 22:44:26,431 [18] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  18 2018-08-18 22:44:26,431 [18] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 1.6112ms
+
+INFO  18 2018-08-18 22:44:26,431 [18] ?     - Request finished in 1.9439ms 200 application/json; charset=utf-8
+
+INFO  15 2018-08-18 22:44:26,433 [15] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  15 2018-08-18 22:44:26,433 [15] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  15 2018-08-18 22:44:26,433 [15] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (1) - Validation state: Valid
+
+INFO  15 2018-08-18 22:44:26,434 [15] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  15 2018-08-18 22:44:26,434 [15] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  15 2018-08-18 22:44:26,434 [15] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.041ms.
+
+INFO  15 2018-08-18 22:44:26,434 [15] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  15 2018-08-18 22:44:26,435 [15] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.464ms
+
+INFO  15 2018-08-18 22:44:26,435 [15] ?     - Request finished in 1.7258ms 200 application/json; charset=utf-8
+
+INFO  18 2018-08-18 22:44:26,437 [18] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  18 2018-08-18 22:44:26,437 [18] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  18 2018-08-18 22:44:26,437 [18] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (2) - Validation state: Valid
+
+INFO  18 2018-08-18 22:44:26,438 [18] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  18 2018-08-18 22:44:26,438 [18] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  18 2018-08-18 22:44:26,438 [18] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.072ms.
+
+INFO  18 2018-08-18 22:44:26,439 [18] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  18 2018-08-18 22:44:26,439 [18] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6094ms
+
+INFO  18 2018-08-18 22:44:26,439 [18] ?     - Request finished in 1.9542ms 200 application/json; charset=utf-8
+
+INFO  18 2018-08-18 22:44:26,441 [18] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  18 2018-08-18 22:44:26,441 [18] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  18 2018-08-18 22:44:26,441 [18] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (3) - Validation state: Valid
+
+INFO  18 2018-08-18 22:44:26,442 [18] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  18 2018-08-18 22:44:26,443 [18] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  18 2018-08-18 22:44:26,443 [18] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.152ms.
+
+INFO  18 2018-08-18 22:44:26,443 [18] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  18 2018-08-18 22:44:26,443 [18] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6608ms
+
+INFO  18 2018-08-18 22:44:26,443 [18] ?     - Request finished in 1.9454ms 200 application/json; charset=utf-8
+
+INFO  18 2018-08-18 22:44:26,445 [18] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  18 2018-08-18 22:44:26,445 [18] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  18 2018-08-18 22:44:26,446 [18] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (4) - Validation state: Valid
+
+INFO  18 2018-08-18 22:44:26,446 [18] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  18 2018-08-18 22:44:26,446 [18] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  18 2018-08-18 22:44:26,447 [18] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9923ms.
+
+INFO  18 2018-08-18 22:44:26,447 [18] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  18 2018-08-18 22:44:26,447 [18] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.4183ms
+
+INFO  18 2018-08-18 22:44:26,447 [18] ?     - Request finished in 1.7324ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:26,449 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  20 2018-08-18 22:44:26,449 [20] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:26,449 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (5) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:26,450 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:26,450 [20] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  20 2018-08-18 22:44:26,450 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1541ms.
+
+INFO  20 2018-08-18 22:44:26,450 [20] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  20 2018-08-18 22:44:26,450 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.5733ms
+
+INFO  20 2018-08-18 22:44:26,451 [20] ?     - Request finished in 1.9138ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:26,453 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  20 2018-08-18 22:44:26,453 [20] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:26,453 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (6) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:26,453 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:26,454 [20] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  20 2018-08-18 22:44:26,454 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9534ms.
+
+INFO  20 2018-08-18 22:44:26,454 [20] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  20 2018-08-18 22:44:26,454 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.4063ms
+
+INFO  20 2018-08-18 22:44:26,454 [20] ?     - Request finished in 1.6752ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:26,456 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  20 2018-08-18 22:44:26,456 [20] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:26,457 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (7) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:26,457 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:26,458 [20] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  20 2018-08-18 22:44:26,458 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9929ms.
+
+INFO  20 2018-08-18 22:44:26,458 [20] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  20 2018-08-18 22:44:26,458 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.4848ms
+
+INFO  20 2018-08-18 22:44:26,458 [20] ?     - Request finished in 1.8191ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:26,463 [20] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  20 2018-08-18 22:44:26,463 [20] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  19 2018-08-18 22:44:26,465 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  19 2018-08-18 22:44:26,465 [19] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2018-08-18 22:44:26,466 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  19 2018-08-18 22:44:26,467 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.2978ms.
+
+INFO  19 2018-08-18 22:44:26,467 [19] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  19 2018-08-18 22:44:26,467 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 4.3946ms
+
+INFO  19 2018-08-18 22:44:26,467 [19] ?     - Request finished in 4.74ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:30,317 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/sections  
+
+INFO  20 2018-08-18 22:44:30,317 [20] ?     - Route matched with {action = "GetSections", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:30,317 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:30,318 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:30,318 [20] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [s].[Order], [s].[ParentId]
+FROM [Sections] AS [s]
+
+INFO  20 2018-08-18 22:44:30,320 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.0104ms.
+
+INFO  20 2018-08-18 22:44:30,320 [20] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.SectionDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  20 2018-08-18 22:44:30,320 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetSections (WebStore.ServicesHosting) in 2.5577ms
+
+INFO  20 2018-08-18 22:44:30,320 [20] ?     - Request finished in 2.8908ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:30,324 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/brands  
+
+INFO  20 2018-08-18 22:44:30,325 [20] ?     - Route matched with {action = "GetBrands", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:30,325 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:30,325 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:30,326 [20] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [b].[Order]
+FROM [Brands] AS [b]
+
+INFO  20 2018-08-18 22:44:30,326 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0997ms.
+
+INFO  20 2018-08-18 22:44:30,326 [20] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.BrandDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  20 2018-08-18 22:44:30,326 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrands (WebStore.ServicesHosting) in 1.4691ms
+
+INFO  20 2018-08-18 22:44:30,326 [20] ?     - Request finished in 1.7685ms 200 application/json; charset=utf-8
+
+INFO  19 2018-08-18 22:44:30,328 [19] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/1  
+
+INFO  19 2018-08-18 22:44:30,328 [19] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  19 2018-08-18 22:44:30,329 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (1) - Validation state: Valid
+
+INFO  19 2018-08-18 22:44:30,329 [19] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2018-08-18 22:44:30,330 [19] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  19 2018-08-18 22:44:30,330 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1529ms.
+
+INFO  19 2018-08-18 22:44:30,330 [19] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  19 2018-08-18 22:44:30,330 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6271ms
+
+INFO  19 2018-08-18 22:44:30,330 [19] ?     - Request finished in 1.9409ms 200 application/json; charset=utf-8
+
+INFO  19 2018-08-18 22:44:30,332 [19] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/2  
+
+INFO  19 2018-08-18 22:44:30,333 [19] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  19 2018-08-18 22:44:30,333 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (2) - Validation state: Valid
+
+INFO  19 2018-08-18 22:44:30,333 [19] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2018-08-18 22:44:30,334 [19] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  19 2018-08-18 22:44:30,334 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1746ms.
+
+INFO  19 2018-08-18 22:44:30,334 [19] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  19 2018-08-18 22:44:30,334 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6768ms
+
+INFO  19 2018-08-18 22:44:30,334 [19] ?     - Request finished in 2.0697ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:30,336 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/3  
+
+INFO  20 2018-08-18 22:44:30,336 [20] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:30,337 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (3) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:30,337 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:30,338 [20] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  20 2018-08-18 22:44:30,338 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9237ms.
+
+INFO  20 2018-08-18 22:44:30,338 [20] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  20 2018-08-18 22:44:30,338 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.3286ms
+
+INFO  20 2018-08-18 22:44:30,338 [20] ?     - Request finished in 1.6301ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:30,340 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/4  
+
+INFO  20 2018-08-18 22:44:30,340 [20] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:30,340 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (4) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:30,341 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:30,341 [20] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  20 2018-08-18 22:44:30,341 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9101ms.
+
+INFO  20 2018-08-18 22:44:30,341 [20] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  20 2018-08-18 22:44:30,341 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.2982ms
+
+INFO  20 2018-08-18 22:44:30,341 [20] ?     - Request finished in 1.5877ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:30,344 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/5  
+
+INFO  20 2018-08-18 22:44:30,344 [20] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:30,344 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (5) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:30,345 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:30,345 [20] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  20 2018-08-18 22:44:30,345 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.967ms.
+
+INFO  20 2018-08-18 22:44:30,346 [20] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  20 2018-08-18 22:44:30,346 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.4318ms
+
+INFO  20 2018-08-18 22:44:30,346 [20] ?     - Request finished in 1.9072ms 200 application/json; charset=utf-8
+
+INFO  20 2018-08-18 22:44:30,348 [20] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/6  
+
+INFO  20 2018-08-18 22:44:30,348 [20] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  20 2018-08-18 22:44:30,348 [20] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (6) - Validation state: Valid
+
+INFO  20 2018-08-18 22:44:30,348 [20] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  20 2018-08-18 22:44:30,349 [20] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  20 2018-08-18 22:44:30,349 [20] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2053ms.
+
+INFO  20 2018-08-18 22:44:30,349 [20] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  20 2018-08-18 22:44:30,350 [20] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.6768ms
+
+INFO  20 2018-08-18 22:44:30,350 [20] ?     - Request finished in 1.9797ms 200 application/json; charset=utf-8
+
+INFO  18 2018-08-18 22:44:30,352 [18] ?     - Request starting HTTP/1.1 GET http://localhost:18992/api/products/count/7  
+
+INFO  18 2018-08-18 22:44:30,352 [18] ?     - Route matched with {action = "Get", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting)
+
+INFO  18 2018-08-18 22:44:30,352 [18] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) with arguments (7) - Validation state: Valid
+
+INFO  18 2018-08-18 22:44:30,353 [18] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  18 2018-08-18 22:44:30,353 [18] ?     - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+WHERE [p].[BrandId] IS NOT NULL AND ([p].[BrandId] = @__id_0)
+
+INFO  18 2018-08-18 22:44:30,354 [18] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0783ms.
+
+INFO  18 2018-08-18 22:44:30,354 [18] ?     - Executing ObjectResult, writing value of type 'System.Int32'.
+
+INFO  18 2018-08-18 22:44:30,354 [18] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetBrandProductCount (WebStore.ServicesHosting) in 1.5549ms
+
+INFO  18 2018-08-18 22:44:30,354 [18] ?     - Request finished in 1.9033ms 200 application/json; charset=utf-8
+
+INFO  18 2018-08-18 22:44:30,358 [18] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  18 2018-08-18 22:44:30,359 [18] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  19 2018-08-18 22:44:30,361 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  19 2018-08-18 22:44:30,361 [19] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2018-08-18 22:44:30,362 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  19 2018-08-18 22:44:30,364 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.9077ms.
+
+INFO  19 2018-08-18 22:44:30,364 [19] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  19 2018-08-18 22:44:30,364 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 5.5175ms
+
+INFO  19 2018-08-18 22:44:30,364 [19] ?     - Request finished in 5.9198ms 200 application/json; charset=utf-8
+
+INFO  19 2018-08-18 22:44:39,062 [19] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  19 2018-08-18 22:44:39,062 [19] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  19 2018-08-18 22:44:39,064 [19] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  19 2018-08-18 22:44:39,064 [19] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  19 2018-08-18 22:44:39,065 [19] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  19 2018-08-18 22:44:39,066 [19] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.3892ms.
+
+INFO  19 2018-08-18 22:44:39,066 [19] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  19 2018-08-18 22:44:39,066 [19] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 4.0345ms
+
+INFO  19 2018-08-18 22:44:39,066 [19] ?     - Request finished in 4.3462ms 200 application/json; charset=utf-8
+
+INFO  22 2018-08-18 22:44:55,312 [22] ?     - Request starting HTTP/1.1 POST http://localhost:18992/api/products application/json; charset=utf-8 
+
+INFO  22 2018-08-18 22:44:55,312 [22] ?     - Route matched with {action = "Post", controller = "ProductsApi"}. Executing action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting)
+
+INFO  21 2018-08-18 22:44:55,313 [21] ?     - Executing action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) with arguments (WebStore.Domain.Filters.ProductFilter) - Validation state: Valid
+
+INFO  21 2018-08-18 22:44:55,314 [21] ?     - Entity Framework Core 2.1.1-rtm-30846 initialized 'WebStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+INFO  21 2018-08-18 22:44:55,315 [21] ?     - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[BrandId], [p].[Condition], [p].[ImageUrl], [p].[Name], [p].[Order], [p].[Price], [p].[Quantity], [p].[SectionId], [p.Section].[Id], [p.Section].[Name], [p.Section].[Order], [p.Section].[ParentId], [p.Brand].[Id], [p.Brand].[Name], [p.Brand].[Order]
+FROM [Products] AS [p]
+INNER JOIN [Sections] AS [p.Section] ON [p].[SectionId] = [p.Section].[Id]
+LEFT JOIN [Brands] AS [p.Brand] ON [p].[BrandId] = [p.Brand].[Id]
+
+INFO  21 2018-08-18 22:44:55,316 [21] ?     - Executed action method WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.4951ms.
+
+INFO  21 2018-08-18 22:44:55,316 [21] ?     - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebStore.Domain.Dto.Product.ProductDto, WebStore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+INFO  21 2018-08-18 22:44:55,316 [21] ?     - Executed action WebStore.ServicesHosting.Controllers.ProductsApiController.GetProducts (WebStore.ServicesHosting) in 4.2761ms
+
+INFO  21 2018-08-18 22:44:55,316 [21] ?     - Request finished in 4.6167ms 200 application/json; charset=utf-8
+

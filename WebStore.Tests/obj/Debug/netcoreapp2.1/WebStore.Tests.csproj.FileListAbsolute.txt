@@ -1,0 +1,96 @@
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.deps.json
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.runtimeconfig.json
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.runtimeconfig.dev.json
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.dll
+D:\Git\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.csprojAssemblyReference.cache
+D:\Git\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.csproj.CoreCompileInputs.cache
+D:\Git\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.AssemblyInfoInputs.cache
+D:\Git\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.AssemblyInfo.cs
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.pdb
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Clients.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.DAL.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Interfaces.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Logger.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Services.dll
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.pdb
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Clients.pdb
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.DAL.pdb
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Interfaces.pdb
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Logger.pdb
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Services.pdb
+D:\Git\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.csproj.CopyComplete
+D:\Git\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.dll
+D:\Git\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.pdb
+D:\Git\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\log4net.config
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\log4net.config
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\appsettings.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\bundleconfig.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\libman.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.deps.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.runtimeconfig.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.runtimeconfig.dev.json
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Clients.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.DAL.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Interfaces.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Logger.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Services.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Clients.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.DAL.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Interfaces.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Logger.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Services.pdb
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.csprojAssemblyReference.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.AssemblyInfoInputs.cache
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.AssemblyInfo.cs
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.csproj.CopyComplete
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.dll
+d:\WebStore NoteBook\WebStore-master\WebStore-master\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\log4net.config
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\appsettings.json
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\bundleconfig.json
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\libman.json
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.deps.json
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.runtimeconfig.json
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.runtimeconfig.dev.json
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Tests.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Clients.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.DAL.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Interfaces.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Logger.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Services.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Clients.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.DAL.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Interfaces.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Logger.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\bin\Debug\netcoreapp2.1\WebStore.Services.pdb
+d:\Заочка\Диплом\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.csprojAssemblyReference.cache
+d:\Заочка\Диплом\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.AssemblyInfoInputs.cache
+d:\Заочка\Диплом\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.AssemblyInfo.cs
+d:\Заочка\Диплом\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.csproj.CopyComplete
+d:\Заочка\Диплом\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.dll
+d:\Заочка\Диплом\WebStore\WebStore.Tests\obj\Debug\netcoreapp2.1\WebStore.Tests.pdb

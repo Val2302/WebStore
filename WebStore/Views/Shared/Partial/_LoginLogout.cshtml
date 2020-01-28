@@ -1,0 +1,25 @@
+﻿
+@if (User.Identity.IsAuthenticated)
+{
+    <span>Hello, <a asp-action="Index"
+                           asp-controller="Profile">@User.Identity.Name</a></span>
+    <form method="post" asp-controller="Account"
+          asp-action="Logout"
+          asp-antiforgery="true">
+        <input type="submit" value="Login" class="btn btn-default" />
+    </form>
+    @if (User.IsInRole("Administrator"))
+     {
+         <a asp-action="Index" 
+            asp-controller="Home"
+            asp-area="Admin"
+            class="btn btn-sm btn-link">Admin page</a>
+     }
+}
+else
+{
+    <div class="btn-group pull-right">
+        <a asp-action="Login" asp-controller="Account" class="btn btn-default">Login</a>
+        <a asp-action="Register" asp-controller="Account" class="btn btn-default">Registration</a>
+    </div>
+}

@@ -1,0 +1,11 @@
+D:\Git\WebStore\WebStore.Domain\bin\Release\netstandard2.0\WebStore.Domain.deps.json
+D:\Git\WebStore\WebStore.Domain\bin\Release\netstandard2.0\WebStore.Domain.dll
+D:\Git\WebStore\WebStore.Domain\bin\Release\netstandard2.0\WebStore.Domain.pdb
+D:\Git\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.csprojAssemblyReference.cache
+D:\Git\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.Resources.Resource.resources
+D:\Git\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.csproj.GenerateResource.cache
+D:\Git\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.csproj.CoreCompileInputs.cache
+D:\Git\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.AssemblyInfoInputs.cache
+D:\Git\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.AssemblyInfo.cs
+D:\Git\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.dll
+D:\Git\WebStore\WebStore.Domain\obj\Release\netstandard2.0\WebStore.Domain.pdb
